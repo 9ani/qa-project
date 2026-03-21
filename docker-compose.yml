@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .  # Изменили контекст на корень проекта
+      dockerfile: backend/Dockerfile # Явно указали путь к Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MONGO_URI=mongodb://mongodb:27017/Ecommerce-Products
+      - JWT_SECRET=test_secret_key_for_qa
+      - PINECONE_API_KEY=dummy_key
+      - PINECONE_HOST=dummy_host
+      - PINECONE_INDEX=dummy_index
+      - SKIP_SEED_ON_START=true
+    depends_on:
+      - mongodb
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_API_BASE_URL: http://localhost:5000/api
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  mongodb:
+    image: mongo:6.0
+    ports:
+      - "27017:27017"
