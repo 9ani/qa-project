@@ -58,7 +58,9 @@
     "backend": "cd backend && npm start",
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
     "format": "prettier --config .prettierrc --write \"setupProxy.js\" \"src/components/*.{html,css,js,jsx,ts,tsx}\" \"src/tests/*.{html,css,js,jsx,ts,tsx}\" \"src/dev/*.{html,css,js,jsx,ts,tsx}\" \"src/pages/*.{html,css,js,jsx,ts,tsx}\" \"src/*.{html,css,js,jsx,ts,tsx}\" \"backend/*.{html,css,js,jsx,ts,tsx}\" \"backend/seed/*.{html,css,js,jsx,ts,tsx}\" \"backend/routes/*.{html,css,js,jsx,ts,tsx}\" \"backend/docs/*.{html,css,js,jsx,ts,tsx}\" \"backend/config/*.{html,css,js,jsx,ts,tsx}\"",
-    "lint": "prettier --config .prettierrc --write \"setupProxy.js\" \"src/components/*.{html,css,js,jsx,ts,tsx}\" \"src/tests/*.{html,css,js,jsx,ts,tsx}\" \"src/dev/*.{html,css,js,jsx,ts,tsx}\" \"src/pages/*.{html,css,js,jsx,ts,tsx}\" \"src/*.{html,css,js,jsx,ts,tsx}\" \"backend/*.{html,css,js,jsx,ts,tsx}\" \"backend/seed/*.{html,css,js,jsx,ts,tsx}\" \"backend/routes/*.{html,css,js,jsx,ts,tsx}\" \"backend/docs/*.{html,css,js,jsx,ts,tsx}\" \"backend/config/*.{html,css,js,jsx,ts,tsx}\""
+    "lint": "prettier --config .prettierrc --write \"setupProxy.js\" \"src/components/*.{html,css,js,jsx,ts,tsx}\" \"src/tests/*.{html,css,js,jsx,ts,tsx}\" \"src/dev/*.{html,css,js,jsx,ts,tsx}\" \"src/pages/*.{html,css,js,jsx,ts,tsx}\" \"src/*.{html,css,js,jsx,ts,tsx}\" \"backend/*.{html,css,js,jsx,ts,tsx}\" \"backend/seed/*.{html,css,js,jsx,ts,tsx}\" \"backend/routes/*.{html,css,js,jsx,ts,tsx}\" \"backend/docs/*.{html,css,js,jsx,ts,tsx}\" \"backend/config/*.{html,css,js,jsx,ts,tsx}\"",
+    "test:e2e": "npx playwright test",
+    "test:e2e:report": "npx playwright show-report e2e-report"
   },
   "workspaces": [
     "backend"
@@ -86,6 +88,7 @@
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
     "@craco/craco": "^7.1.0",
+    "@playwright/test": "^1.59.1",
     "babel-jest": "^30.0.4",
     "css-loader": "^7.1.2",
     "identity-obj-proxy": "^3.0.0",
