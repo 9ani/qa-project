@@ -7,9 +7,10 @@
   "scripts": {
     "start": "nodemon index.js",
     "build": "node index.js",
-    "test": "jest",
+    "test": "jest --config jest.config.js",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --config jest.config.js --coverage",
+    "test:coverage:ci": "jest --config jest.config.js --coverage --coverageReporters=text --coverageReporters=json-summary",
     "seed": "node seed/productSeeds.js dev",
     "dev": "nodemon index.js",
     "weaviate-upsert": "node scripts/weaviate-upsert.js",

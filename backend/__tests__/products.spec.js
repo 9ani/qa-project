@@ -1,9 +1,22 @@
 const express    = require('express');
 const bodyParser = require('body-parser');
 const request    = require('supertest');
+const jwt        = require('jsonwebtoken');
+
+process.env.JWT_SECRET = 'test-jwt-secret';
 
 jest.mock('../models/product');
 const Product = require('../models/product');
+
+jest.mock('../pineconeClient', () => ({
+  queryById: jest.fn(),
+  queryByVector: jest.fn(),
+  fetchVectors: jest.fn(),
+}));
+
+jest.mock('../services/pineconeSync', () => ({
+  ensureProductSyncedWithPinecone: jest.fn(),
+}));
 
 jest.mock('weaviate-ts-client', () => {
   const chain = {
@@ -28,15 +41,35 @@ jest.mock('weaviate-ts-client', () => {
   };
 });
 
+const { queryById } = require('../pineconeClient');
+const { ensureProductSyncedWithPinecone } = require('../services/pineconeSync');
 const productsRouter = require('../routes/products');
+
+const buildLeanQuery = data => ({
+  limit: jest.fn().mockReturnValue({
+    lean: jest.fn().mockResolvedValue(data),
+  }),
+  sort: jest.fn().mockReturnValue({
+    limit: jest.fn().mockReturnValue({
+      lean: jest.fn().mockResolvedValue(data),
+    }),
+  }),
+  lean: jest.fn().mockResolvedValue(data),
+});
 
 describe('Products API', () => {
   let app;
+
+  beforeAll(() => {
+    jest.spyOn(console, 'error').mockImplementation(() => {});
+    jest.spyOn(console, 'warn').mockImplementation(() => {});
+  });
 
   beforeEach(() => {
     app = express();
     app.use(bodyParser.json());
     app.use('/api/products', productsRouter);
+    jest.clearAllMocks();
   });
 
   describe('GET /api/products', () => {
@@ -85,6 +118,130 @@ describe('Products API', () => {
       const res = await request(app).get('/api/products/123');
       expect(res.status).toBe(500);
       expect(res.text).toBe('Server error');
+    });
+  });
+
+  describe('POST /api/products', () => {
+    it('401 → rejects create without token', async () => {
+      const res = await request(app)
+        .post('/api/products')
+        .send({ name: 'Secure Product' });
+
+      expect(res.status).toBe(401);
+      expect(res.body).toEqual({ msg: 'No token, authorization denied' });
+      expect(Product.create).not.toHaveBeenCalled();
+    });
+
+    it('401 → rejects expired token on protected mutation', async () => {
+      const expiredToken = jwt.sign({ user: { id: 'user-1' } }, process.env.JWT_SECRET, { expiresIn: -1 });
+
+      const res = await request(app)
+        .post('/api/products')
+        .set('x-auth-token', expiredToken)
+        .send({ name: 'Secure Product' });
+
+      expect(res.status).toBe(401);
+      expect(res.body).toEqual({ msg: 'Token is not valid' });
+      expect(Product.create).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('GET /api/products/:id/similar', () => {
+    it('200 → falls back to heuristic recommendations when Pinecone is unavailable', async () => {
+      const baseProduct = {
+        _id: 'base-1',
+        name: 'Noise Cancelling Headphones',
+        description: 'Wireless over-ear headphones',
+        price: 199,
+        category: 'audio',
+        image: '/img/base.png',
+        brand: 'Fusion',
+        stock: 12,
+        rating: 4.7,
+        numReviews: 18,
+        createdAt: '2026-04-09T00:00:00.000Z',
+      };
+      const fallbackProducts = [
+        {
+          _id: 'cand-1',
+          name: 'Studio Headphones',
+          description: 'Detailed audio for creators',
+          price: 189,
+          category: 'audio',
+          image: '/img/c1.png',
+          brand: 'Fusion',
+          stock: 8,
+          rating: 4.8,
+          numReviews: 22,
+          createdAt: '2026-04-09T00:00:00.000Z',
+        },
+        {
+          _id: 'cand-2',
+          name: 'Travel Headphones',
+          description: 'Compact ANC headset',
+          price: 179,
+          category: 'audio',
+          image: '/img/c2.png',
+          brand: 'Fusion',
+          stock: 9,
+          rating: 4.6,
+          numReviews: 14,
+          createdAt: '2026-04-09T00:00:00.000Z',
+        },
+        {
+          _id: 'cand-3',
+          name: 'Wireless Earbuds',
+          description: 'Portable earbuds with charging case',
+          price: 149,
+          category: 'audio',
+          image: '/img/c3.png',
+          brand: 'Fusion',
+          stock: 15,
+          rating: 4.5,
+          numReviews: 30,
+          createdAt: '2026-04-09T00:00:00.000Z',
+        },
+        {
+          _id: 'cand-4',
+          name: 'Gaming Headset',
+          description: 'Low-latency headset with mic',
+          price: 159,
+          category: 'audio',
+          image: '/img/c4.png',
+          brand: 'Fusion',
+          stock: 6,
+          rating: 4.4,
+          numReviews: 12,
+          createdAt: '2026-04-09T00:00:00.000Z',
+        },
+        {
+          _id: 'cand-5',
+          name: 'Portable Speaker',
+          description: 'Rich bass Bluetooth speaker',
+          price: 129,
+          category: 'audio',
+          image: '/img/c5.png',
+          brand: 'Fusion',
+          stock: 11,
+          rating: 4.3,
+          numReviews: 19,
+          createdAt: '2026-04-09T00:00:00.000Z',
+        },
+      ];
+
+      Product.findById.mockReturnValue({
+        lean: jest.fn().mockResolvedValue(baseProduct),
+      });
+      Product.find.mockReturnValue(buildLeanQuery(fallbackProducts));
+      queryById.mockRejectedValue(new Error('Pinecone unavailable'));
+      ensureProductSyncedWithPinecone.mockResolvedValue();
+
+      const res = await request(app).get('/api/products/base-1/similar');
+
+      expect(res.status).toBe(200);
+      expect(ensureProductSyncedWithPinecone).toHaveBeenCalledWith(baseProduct);
+      expect(res.body).toHaveLength(5);
+      expect(res.body[0]).toMatchObject({ id: 'cand-1', name: 'Studio Headphones' });
     });
   });
 

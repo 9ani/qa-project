@@ -2,6 +2,13 @@ const express = require('express');
 const router = express.Router();
 const Product = require('../models/product');
 
+const escapeRegex = value => String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+const normalizeSearchQuery = query => {
+  const trimmed = typeof query === 'string' ? query.trim() : '';
+  return trimmed ? escapeRegex(trimmed) : '';
+};
+
 /**
  * @swagger
  * /api/search:
@@ -64,11 +71,14 @@ const Product = require('../models/product');
  */
 router.get('/', async (req, res) => {
   try {
-    const query = req.query.q;
+    const normalizedQuery = normalizeSearchQuery(req.query.q);
+    const filter = normalizedQuery
+      ? {
+          $or: [{ name: { $regex: normalizedQuery, $options: 'i' } }, { description: { $regex: normalizedQuery, $options: 'i' } }],
+        }
+      : {};
 
-    const products = await Product.find({
-      $or: [{ name: { $regex: query, $options: 'i' } }, { description: { $regex: query, $options: 'i' } }],
-    });
+    const products = await Product.find(filter);
 
     res.json(products);
   } catch (error) {
@@ -76,5 +86,8 @@ router.get('/', async (req, res) => {
     res.status(500).json({ error: 'An error occurred during the search.' });
   }
 });
+
+router.escapeRegex = escapeRegex;
+router.normalizeSearchQuery = normalizeSearchQuery;
 
 module.exports = router;

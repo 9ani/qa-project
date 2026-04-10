@@ -30,8 +30,8 @@ jobs:
       - name: Install dependencies (root)
         run: npm install
 
-      - name: Run Prettier
-        run: npm run format
+      - name: Run Prettier in check mode
+        run: npm run format:check
 
   # ────────────────────────────────────────────────
   # Stage 2: Backend Tests with Coverage Gate
@@ -56,7 +56,7 @@ jobs:
         working-directory: backend
         run: |
           npm install
-          npx jest --coverage --coverageReporters=text --coverageReporters=json-summary 2>&1 | tee test-output.txt
+          npm run test:coverage:ci 2>&1 | tee test-output.txt
 
       - name: Quality Gate - Backend Coverage Check (Ubuntu only)
         if: matrix.os == 'ubuntu-latest'
@@ -73,9 +73,9 @@ jobs:
             echo "Functions:  ${FUNCTIONS}%"
             echo "Lines:      ${LINES}%"
             echo ""
-            # Quality gate: statements coverage must be >= 50% for backend
-            if (( $(echo "$STATEMENTS < 50" | bc -l) )); then
-              echo "FAIL: Backend statement coverage ${STATEMENTS}% is below 50% threshold"
+            # Quality gate: statements coverage must be >= 60% for backend
+            if (( $(echo "$STATEMENTS < 60" | bc -l) )); then
+              echo "FAIL: Backend statement coverage ${STATEMENTS}% is below 60% threshold"
               exit 1
             fi
             echo "PASS: Backend coverage meets threshold"
@@ -113,7 +113,7 @@ jobs:
       - name: Install & Test Frontend with Coverage
         run: |
           npm install
-          npx jest --coverage --coverageReporters=text --coverageReporters=json-summary 2>&1 | tee test-output.txt
+          npm run test:frontend:coverage 2>&1 | tee test-output.txt
 
       - name: Quality Gate - Frontend Coverage Check (Node 18 only)
         if: matrix.node-version == 18
@@ -198,7 +198,7 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Run Playwright E2E tests
-        run: npx playwright test || true
+        run: npx playwright test
         env:
           CI: true
 
@@ -221,13 +221,14 @@ jobs:
       - backend
       - frontend
       - recommendation-tests
+      - e2e-tests
     runs-on: ubuntu-latest
     steps:
       - name: Quality Gate Summary
         run: |
           echo "=== Quality Gate Results ==="
           echo ""
-          echo "QG01 - Code Coverage:     Backend >50%, Frontend >40%  ... ENFORCED"
+          echo "QG01 - Code Coverage:     Backend >=60%, Frontend >=40% ... ENFORCED"
           echo "QG02 - Critical Defects:  0 critical defects allowed   ... ENFORCED (tests must pass)"
           echo "QG03 - Test Exec Time:    <= 10 min per module         ... MONITORED"
           echo "QG04 - Regression Tests:  100% pass for critical flows ... ENFORCED"
@@ -242,7 +243,6 @@ jobs:
     name: "All Tests Passed"
     needs:
       - quality-gate
-      - e2e-tests
     runs-on: ubuntu-latest
     steps:
       - name: Notify success
@@ -330,10 +330,10 @@ jobs:
             echo "### Quality Gates Enforced"
             echo "| Gate | Metric | Threshold | Status |"
             echo "| ---- | ------ | --------- | ------ |"
-            echo "| QG01 | Code Coverage | Backend >= 50%, Frontend >= 40% | Enforced |"
+            echo "| QG01 | Code Coverage | Backend >= 60%, Frontend >= 40% | Enforced |"
             echo "| QG02 | Critical Defects | 0 allowed | Enforced |"
             echo "| QG03 | Test Exec Time | <= 10 min/module | Monitored |"
-            echo "| QG04 | Regression Success | 100% critical paths | Enforced |"
+            echo "| QG04 | Regression Success | 100% critical paths incl. E2E | Enforced |"
             echo "| QG05 | Linting | Zero major violations | Enforced |"
             echo ""
             echo "**Completed at** $(date -u '+%Y-%m-%dT%H:%M:%SZ') UTC"
@@ -344,7 +344,7 @@ jobs:
   # ────────────────────────────────────────────────
   alert-on-failure:
     name: "Alert on Failure"
-    needs: [backend, frontend, quality-gate]
+    needs: [backend, frontend, e2e-tests, quality-gate]
     runs-on: ubuntu-latest
     if: failure()
     steps:

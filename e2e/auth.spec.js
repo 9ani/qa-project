@@ -1,6 +1,11 @@
 const { test, expect } = require('@playwright/test');
+const { mockCatalogApi, mockInvalidLogin } = require('./support/mockApi');
 
 test.describe('Authentication Flow', () => {
+  test.beforeEach(async ({ page }) => {
+    await mockCatalogApi(page);
+  });
+
   test.describe('Login Page', () => {
     test('renders login form with email, password, and submit button', async ({ page }) => {
       await page.goto('/login');
@@ -10,20 +15,27 @@ test.describe('Authentication Flow', () => {
     });
 
     test('shows error on invalid credentials', async ({ page }) => {
+      await mockInvalidLogin(page);
       await page.goto('/login');
-      await page.locator('input[type="email"], input[name="email"], input[id="email"]').first().fill('invalid@example.com');
-      await page.locator('input[type="password"]').first().fill('wrongpassword');
-      await page.getByRole('button', { name: /login|sign in/i }).click();
+      const loginForm = page.locator('main form');
+      await loginForm.getByLabel('Email').fill('invalid@example.com');
+      await loginForm.locator('input[type="password"]').fill('wrongpassword');
 
-      // Should show an error or stay on login page
-      await page.waitForTimeout(2000);
-      const url = page.url();
-      expect(url).toContain('/login');
+      const loginResponse = page.waitForResponse(
+        response =>
+          response.url().includes('/api/auth/login') &&
+          response.request().method() === 'POST'
+      );
+      await loginForm.getByRole('button', { name: /^login$/i }).click();
+
+      const response = await loginResponse;
+      expect(response.status()).toBe(400);
+      await expect(page).toHaveURL(/\/login$/);
     });
 
     test('has link to registration page', async ({ page }) => {
       await page.goto('/login');
-      const registerLink = page.getByRole('link', { name: /register|sign up|create account/i });
+      const registerLink = page.getByRole('link', { name: /register|sign up|create account/i }).first();
       await expect(registerLink).toBeVisible();
     });
 

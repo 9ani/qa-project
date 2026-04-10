@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const router = express.Router();
 const Product = require('../models/product');
+const auth = require('../middleware/auth');
 
 const { queryById: queryPineconeById, queryByVector: queryPineconeByVector, fetchVectors: fetchPineconeVectors } = require('../pineconeClient');
 const { ensureProductSyncedWithPinecone } = require('../services/pineconeSync');
@@ -404,6 +405,15 @@ router.get('/', async (req, res) => {
   }
 });
 
+router.post('/', auth, async (req, res) => {
+  try {
+    const product = await Product.create(req.body);
+    res.status(201).json(product);
+  } catch (err) {
+    res.status(500).send('Server error');
+  }
+});
+
 /**
  * @swagger
  * /api/products/{id}/similar:
@@ -538,6 +548,37 @@ router.get('/:id', async (req, res) => {
       return res.status(404).send('Product not found');
     }
     res.json(product);
+  } catch (err) {
+    res.status(500).send('Server error');
+  }
+});
+
+router.put('/:id', auth, async (req, res) => {
+  try {
+    const product = await Product.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+      runValidators: true,
+    });
+
+    if (!product) {
+      return res.status(404).send('Product not found');
+    }
+
+    res.json(product);
+  } catch (err) {
+    res.status(500).send('Server error');
+  }
+});
+
+router.delete('/:id', auth, async (req, res) => {
+  try {
+    const product = await Product.findByIdAndDelete(req.params.id);
+
+    if (!product) {
+      return res.status(404).send('Product not found');
+    }
+
+    res.json({ msg: 'Product removed' });
   } catch (err) {
     res.status(500).send('Server error');
   }

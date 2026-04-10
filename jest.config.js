@@ -11,5 +11,5 @@ module.exports = {
   transformIgnorePatterns: [
     '/node_modules/(?!@mui|react-material-ui-carousel)/'
   ],
-  testPathIgnorePatterns: ['/node_modules/', '/build/', '/e2e/'],
+  testPathIgnorePatterns: ['/node_modules/', '/build/', '/e2e/', '/backend/'],
 };

@@ -17,6 +17,11 @@ describe('Search API', () => {
     app = express();
     app.use(bodyParser.json());
     app.use('/api/search', searchRouter);
+    jest.clearAllMocks();
+  });
+
+  it('escapes regex control characters in search queries', () => {
+    expect(searchRouter.normalizeSearchQuery('(bar)+[baz]?')).toBe('\\(bar\\)\\+\\[baz\\]\\?');
   });
 
   it('200 → returns products matching the query', async () => {
@@ -48,13 +53,24 @@ describe('Search API', () => {
     const res = await request(app).get('/api/search');
 
     expect(res.status).toBe(200);
+    expect(Product.find).toHaveBeenCalledWith({});
+    expect(res.body).toEqual(allProducts);
+  });
+
+  it('200 → treats regex-like input as a literal query', async () => {
+    Product.find.mockResolvedValue([]);
+
+    const res = await request(app)
+      .get('/api/search')
+      .query({ q: '(bar)+' });
+
+    expect(res.status).toBe(200);
     expect(Product.find).toHaveBeenCalledWith({
       $or: [
-        { name: { $regex: undefined, $options: 'i' } },
-        { description: { $regex: undefined, $options: 'i' } },
+        { name: { $regex: '\\(bar\\)\\+', $options: 'i' } },
+        { description: { $regex: '\\(bar\\)\\+', $options: 'i' } },
       ],
     });
-    expect(res.body).toEqual(allProducts);
   });
 
   it('500 → internal server error', async () => {

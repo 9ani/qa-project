@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import CheckoutForm from '../components/CheckoutForm';
 import {
@@ -32,6 +32,7 @@ function Checkout({ cartItems = [], onOrderComplete }) {
   const [errorMessage, setErrorMessage] = useState('');
   const [loading, setLoading] = useState(false);
   const { notify } = useNotifier();
+  const submissionLockRef = useRef(false);
 
   const [showCartSummary, setShowCartSummary] = useState(false);
   const [selectedItems, setSelectedItems] = useState(() => {
@@ -39,7 +40,24 @@ function Checkout({ cartItems = [], onOrderComplete }) {
     return new Set(defaults);
   });
 
+  React.useEffect(() => {
+    const availableIds = cartItems.map(item => item._id || item.id).filter(Boolean);
+
+    setSelectedItems(prev => {
+      const retainedIds = availableIds.filter(id => prev.has(id));
+      if (retainedIds.length === availableIds.length && retainedIds.length === prev.size) {
+        return prev;
+      }
+
+      return new Set(retainedIds.length ? retainedIds : availableIds);
+    });
+  }, [cartItems]);
+
   const handleSubmit = async formData => {
+    if (submissionLockRef.current || loading) {
+      return;
+    }
+
     if (!selectedItems.size) {
       notify({ severity: 'warning', message: 'Select at least one item before checking out.' });
       return;
@@ -55,6 +73,7 @@ function Checkout({ cartItems = [], onOrderComplete }) {
       return;
     }
 
+    submissionLockRef.current = true;
     setLoading(true);
     setErrorMessage('');
 
@@ -70,7 +89,6 @@ function Checkout({ cartItems = [], onOrderComplete }) {
       };
 
       if (!orderPayload.items.length) {
-        setLoading(false);
         notify({ severity: 'error', message: 'Unable to place order: missing product information.' });
         return;
       }
@@ -79,7 +97,6 @@ function Checkout({ cartItems = [], onOrderComplete }) {
 
       const normalizedEmail = formData.email?.trim() || '';
 
-      setLoading(false);
       setOrderCreated(true);
       onOrderComplete?.();
 
@@ -104,10 +121,12 @@ function Checkout({ cartItems = [], onOrderComplete }) {
       });
     } catch (error) {
       console.error('Error creating order:', error);
-      setLoading(false);
       const message = error?.response?.data?.error || 'Something went wrong while placing your order.';
       setErrorMessage(message);
       notify({ severity: 'error', message });
+    } finally {
+      submissionLockRef.current = false;
+      setLoading(false);
     }
   };
 

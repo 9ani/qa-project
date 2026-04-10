@@ -6,7 +6,7 @@ const resolveBaseURL = () => {
     return envUrl.replace(/\/$/, '');
   }
 
-  if (process.env.REACT_APP_API_USE_PROXY === 'true') {
+  if (process.env.REACT_APP_API_USE_PROXY === 'true' || process.env.NODE_ENV !== 'production') {
     return '/api';
   }
 
