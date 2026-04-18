@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stryker-mutator/stryker-js/master/packages/core/schema/stryker-schema.json",
+  "testRunner": "jest",
+  "coverageAnalysis": "off",
+  "reporters": ["clear-text", "html", "json"],
+  "mutate": [
+    "middleware/auth.js",
+    "routes/orders.js",
+    "routes/checkout.js",
+    "routes/search.js"
+  ],
+  "tempDirName": "reports/mutation/.stryker-tmp",
+  "cleanTempDir": true,
+  "htmlReporter": {
+    "fileName": "reports/mutation/html/index.html"
+  },
+  "jsonReporter": {
+    "fileName": "reports/mutation/mutation-report.json"
+  },
+  "jest": {
+    "projectType": "custom",
+    "configFile": "jest.config.js",
+    "enableFindRelatedTests": false
+  }
+}

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="40" y="36" font-size="22" font-family="Arial, sans-serif" fill="#111827">Performance: error rate</text>
+  <line x1="80" y1="320" x2="920" y2="320" stroke="#9ca3af" stroke-width="1.5" />
+  <line x1="80" y1="320" x2="80" y2="60" stroke="#9ca3af" stroke-width="1.5" />
+  
+        <rect x="80" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="100.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products-normal</text>
+        <text x="100.25" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="132.5" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="152.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products-peak</text>
+        <text x="152.75" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="185" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="205.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products-spike</text>
+        <text x="205.25" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="237.5" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="257.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products-endurance</text>
+        <text x="257.75" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="290" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="310.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search-normal</text>
+        <text x="310.25" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="342.5" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="362.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search-peak</text>
+        <text x="362.75" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="395" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="415.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search-spike</text>
+        <text x="415.25" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="447.5" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="467.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search-endurance</text>
+        <text x="467.75" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="500" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="520.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-normal</text>
+        <text x="520.25" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="552.5" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="572.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-peak</text>
+        <text x="572.75" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="605" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="625.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-spike</text>
+        <text x="625.25" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="657.5" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="677.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-endurance</text>
+        <text x="677.75" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="710" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="730.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">checkout-normal</text>
+        <text x="730.25" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="762.5" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="782.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">checkout-peak</text>
+        <text x="782.75" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="815" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="835.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">checkout-spike</text>
+        <text x="835.25" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+
+        <rect x="867.5" y="320" width="40.5" height="0" fill="#dc2626" rx="6" />
+        <text x="887.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">checkout-endurance</text>
+        <text x="887.75" y="312" text-anchor="middle" font-size="11" fill="#111827">0%</text>
+      
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="40" y="36" font-size="22" font-family="Arial, sans-serif" fill="#111827">backend-pause availability by probe</text>
+  <line x1="80" y1="320" x2="920" y2="320" stroke="#9ca3af" stroke-width="1.5" />
+  <line x1="80" y1="320" x2="80" y2="60" stroke="#9ca3af" stroke-width="1.5" />
+  
+        <rect x="80" y="60" width="108" height="260" fill="#2563eb" rx="6" />
+        <text x="134" y="338" text-anchor="middle" font-size="11" fill="#1f2937">frontend-home</text>
+        <text x="134" y="52" text-anchor="middle" font-size="11" fill="#111827">100%</text>
+      
+
+        <rect x="200" y="181.342" width="108" height="138.658" fill="#2563eb" rx="6" />
+        <text x="254" y="338" text-anchor="middle" font-size="11" fill="#1f2937">backend-health</text>
+        <text x="254" y="173.342" text-anchor="middle" font-size="11" fill="#111827">53.33%</text>
+      
+
+        <rect x="320" y="181.342" width="108" height="138.658" fill="#2563eb" rx="6" />
+        <text x="374" y="338" text-anchor="middle" font-size="11" fill="#1f2937">backend-db</text>
+        <text x="374" y="173.342" text-anchor="middle" font-size="11" fill="#111827">53.33%</text>
+      
+
+        <rect x="440" y="198.65800000000002" width="108" height="121.342" fill="#2563eb" rx="6" />
+        <text x="494" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products</text>
+        <text x="494" y="190.65800000000002" text-anchor="middle" font-size="11" fill="#111827">46.67%</text>
+      
+
+        <rect x="560" y="198.65800000000002" width="108" height="121.342" fill="#2563eb" rx="6" />
+        <text x="614" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search</text>
+        <text x="614" y="190.65800000000002" text-anchor="middle" font-size="11" fill="#111827">46.67%</text>
+      
+
+        <rect x="680" y="207.342" width="108" height="112.65799999999999" fill="#2563eb" rx="6" />
+        <text x="734" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-login</text>
+        <text x="734" y="199.342" text-anchor="middle" font-size="11" fill="#111827">43.33%</text>
+      
+
+        <rect x="800" y="207.342" width="108" height="112.65799999999999" fill="#2563eb" rx="6" />
+        <text x="854" y="338" text-anchor="middle" font-size="11" fill="#1f2937">order-track</text>
+        <text x="854" y="199.342" text-anchor="middle" font-size="11" fill="#111827">43.33%</text>
+      
+</svg>

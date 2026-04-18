@@ -1,0 +1,11 @@
+services:
+  backend:
+    environment:
+      - NODE_ENV=production
+      - SKIP_SEED_ON_START=false
+      - FORCE_SEED_ON_START=false
+      - PINECONE_API_KEY=
+      - PINECONE_HOST=
+      - PINECONE_INDEX=
+      - PINECONE_NAMESPACE=
+      - GOOGLE_AI_API_KEY=

@@ -1,0 +1,917 @@
+frontend-1  | 2026-04-18T05:48:03.211861575Z 172.19.0.1 - - [18/Apr/2026:05:48:03 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:05.211892499Z 172.19.0.1 - - [18/Apr/2026:05:48:05 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:07.214460322Z 172.19.0.1 - - [18/Apr/2026:05:48:07 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:09.214579010Z 172.19.0.1 - - [18/Apr/2026:05:48:09 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:11.215878936Z 172.19.0.1 - - [18/Apr/2026:05:48:11 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:13.216568179Z 172.19.0.1 - - [18/Apr/2026:05:48:13 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:15.215785964Z 172.19.0.1 - - [18/Apr/2026:05:48:15 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:17.214773068Z 172.19.0.1 - - [18/Apr/2026:05:48:17 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:19.215518166Z 172.19.0.1 - - [18/Apr/2026:05:48:19 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:21.214930420Z 172.19.0.1 - - [18/Apr/2026:05:48:21 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:23.215325993Z 172.19.0.1 - - [18/Apr/2026:05:48:23 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:25.215558534Z 172.19.0.1 - - [18/Apr/2026:05:48:25 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:27.215192630Z 172.19.0.1 - - [18/Apr/2026:05:48:27 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:29.215695905Z 172.19.0.1 - - [18/Apr/2026:05:48:29 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:31.214504271Z 172.19.0.1 - - [18/Apr/2026:05:48:31 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:33.214569480Z 172.19.0.1 - - [18/Apr/2026:05:48:33 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:35.214653729Z 172.19.0.1 - - [18/Apr/2026:05:48:35 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:37.213896430Z 172.19.0.1 - - [18/Apr/2026:05:48:37 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:39.213787644Z 172.19.0.1 - - [18/Apr/2026:05:48:39 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:41.213207991Z 172.19.0.1 - - [18/Apr/2026:05:48:41 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:43.213778533Z 172.19.0.1 - - [18/Apr/2026:05:48:43 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:45.213850274Z 172.19.0.1 - - [18/Apr/2026:05:48:45 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:47.213695944Z 172.19.0.1 - - [18/Apr/2026:05:48:47 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:49.213827325Z 172.19.0.1 - - [18/Apr/2026:05:48:49 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:51.213843312Z 172.19.0.1 - - [18/Apr/2026:05:48:51 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:53.213692791Z 172.19.0.1 - - [18/Apr/2026:05:48:53 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:55.213654560Z 172.19.0.1 - - [18/Apr/2026:05:48:55 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:57.214685826Z 172.19.0.1 - - [18/Apr/2026:05:48:57 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:48:59.215283375Z 172.19.0.1 - - [18/Apr/2026:05:48:59 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:01.215159227Z 172.19.0.1 - - [18/Apr/2026:05:49:01 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:03.215372757Z 172.19.0.1 - - [18/Apr/2026:05:49:03 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:05.215895222Z 172.19.0.1 - - [18/Apr/2026:05:49:05 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:07.216472790Z 172.19.0.1 - - [18/Apr/2026:05:49:07 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:09.216668711Z 172.19.0.1 - - [18/Apr/2026:05:49:09 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:11.217675525Z 172.19.0.1 - - [18/Apr/2026:05:49:11 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:13.218683587Z 172.19.0.1 - - [18/Apr/2026:05:49:13 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:15.218736648Z 172.19.0.1 - - [18/Apr/2026:05:49:15 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:17.219722462Z 172.19.0.1 - - [18/Apr/2026:05:49:17 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:19.220723488Z 172.19.0.1 - - [18/Apr/2026:05:49:19 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:21.221496606Z 172.19.0.1 - - [18/Apr/2026:05:49:21 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:23.222040881Z 172.19.0.1 - - [18/Apr/2026:05:49:23 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:25.222745065Z 172.19.0.1 - - [18/Apr/2026:05:49:25 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:27.223838367Z 172.19.0.1 - - [18/Apr/2026:05:49:27 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+backend-1   | 2026-04-18T05:48:43.410687653Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:43.410713058Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:43.410716213Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:192:22)
+backend-1   | 2026-04-18T05:48:43.410718536Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:43.410720971Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:43.410737848Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:43.410739979Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:43.410741612Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17)
+backend-1   | 2026-04-18T05:48:43.410743152Z     at async Collection.findOne (/app/node_modules/mongodb/lib/collection.js:277:21) {
+backend-1   | 2026-04-18T05:48:43.410744679Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:43.410746210Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:43.410747684Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:43.410749116Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:43.410750871Z     stale: false,
+backend-1   | 2026-04-18T05:48:43.410752261Z     compatible: true,
+backend-1   | 2026-04-18T05:48:43.410753696Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:43.410755129Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:43.410756516Z     setName: null,
+backend-1   | 2026-04-18T05:48:43.410757913Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:43.410759314Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:43.410760702Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:43.410762170Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:43.410763640Z   },
+backend-1   | 2026-04-18T05:48:43.410765055Z   code: undefined,
+backend-1   | 2026-04-18T05:48:43.410766479Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:43.410767997Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:43.410769595Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:43.410771047Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:43.410772482Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:43.410773930Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:43.410775430Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:43.410777085Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:43.410778511Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:43.410779936Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:43.410781375Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:43.410782867Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:43.410784271Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:43.410785688Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:43.410787080Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:43.410788533Z     }
+backend-1   | 2026-04-18T05:48:43.410789990Z   }
+backend-1   | 2026-04-18T05:48:43.410793488Z }
+backend-1   | 2026-04-18T05:48:45.217522267Z Error searching products: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:45.217540479Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:45.217541766Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:45.217542615Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:45.217543337Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:45.217544094Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:45.217544856Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:45.217545631Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:45.217546376Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:45.217547185Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:45.217548082Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:45.217548848Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:45.217549557Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:45.217550255Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:45.217550967Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:45.217551880Z     stale: false,
+backend-1   | 2026-04-18T05:48:45.217552726Z     compatible: true,
+backend-1   | 2026-04-18T05:48:45.217554208Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:45.217554928Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:45.217555622Z     setName: null,
+backend-1   | 2026-04-18T05:48:45.217556290Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:45.217556980Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:45.217557646Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:45.217558340Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:45.217559089Z   },
+backend-1   | 2026-04-18T05:48:45.217559746Z   code: undefined,
+backend-1   | 2026-04-18T05:48:45.217560435Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:45.217561406Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:45.217562289Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:45.217563039Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:45.217563744Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:45.217564474Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:45.217565223Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:45.217572477Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:45.217573237Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:45.217573940Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:45.217574698Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:45.217575460Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:45.217576164Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:45.217576847Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:45.217578249Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:45.217578985Z     }
+backend-1   | 2026-04-18T05:48:45.217579676Z   }
+backend-1   | 2026-04-18T05:48:45.217580342Z }
+backend-1   | 2026-04-18T05:48:45.217590138Z getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:45.218562764Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:45.218566366Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:45.218567247Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:45.218568092Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:45.218568879Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:45.218569695Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:45.218570473Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:45.218571241Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17)
+backend-1   | 2026-04-18T05:48:45.218572010Z     at async Collection.findOne (/app/node_modules/mongodb/lib/collection.js:277:21)
+backend-1   | 2026-04-18T05:48:45.218572789Z     at async model.Query._findOne (/app/node_modules/mongoose/lib/query.js:2687:15)
+backend-1   | 2026-04-18T05:48:45.218573523Z     at async model.Query.exec (/app/node_modules/mongoose/lib/query.js:4604:63) {
+backend-1   | 2026-04-18T05:48:45.218574269Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:45.218574970Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:45.218575692Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:45.218576404Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:45.218577196Z     stale: false,
+backend-1   | 2026-04-18T05:48:45.218577886Z     compatible: true,
+backend-1   | 2026-04-18T05:48:45.218578605Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:45.218579315Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:45.218580011Z     setName: null,
+backend-1   | 2026-04-18T05:48:45.218580673Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:45.218581342Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:45.218583856Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:45.218584620Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:45.218585358Z   },
+backend-1   | 2026-04-18T05:48:45.218586049Z   code: undefined,
+backend-1   | 2026-04-18T05:48:45.218586740Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:45.218587573Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:45.218588392Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:45.218589122Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:45.218589841Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:45.218590554Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:45.218591304Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:45.218592060Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:45.218592794Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:45.218593461Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:45.218594182Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:45.218595128Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:45.218595818Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:45.218596521Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:45.218597231Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:45.218597955Z     }
+backend-1   | 2026-04-18T05:48:45.218598654Z   }
+backend-1   | 2026-04-18T05:48:45.218599314Z }
+backend-1   | 2026-04-18T05:48:47.216123793Z Error searching products: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:47.216139578Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:47.216141161Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:47.216142128Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:47.216143005Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:47.216143826Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:47.216144674Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:47.216145507Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:47.216146328Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:47.216147152Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:47.216147979Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:47.216161718Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:47.216162600Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:47.216163524Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:47.216164367Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:47.216165422Z     stale: false,
+backend-1   | 2026-04-18T05:48:47.216166213Z     compatible: true,
+backend-1   | 2026-04-18T05:48:47.216167037Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:47.216167829Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:47.216168605Z     setName: null,
+backend-1   | 2026-04-18T05:48:47.216169372Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:47.216170170Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:47.216170999Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:47.216171798Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:47.216172635Z   },
+backend-1   | 2026-04-18T05:48:47.216173458Z   code: undefined,
+backend-1   | 2026-04-18T05:48:47.216175216Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:47.216176123Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:47.216177117Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:47.216177943Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:47.216178744Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:47.216179564Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:47.216180406Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:47.216181249Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:47.216182070Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:47.216182882Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:47.216183700Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:47.216184584Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:47.216185361Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:47.216186179Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:47.216187597Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:47.216188410Z     }
+backend-1   | 2026-04-18T05:48:47.216189211Z   }
+backend-1   | 2026-04-18T05:48:47.216189988Z }
+backend-1   | 2026-04-18T05:48:47.216319764Z getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:47.216540848Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:47.216542160Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:47.216543021Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:47.216543868Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:47.216545834Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:47.216546674Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:47.216547490Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:47.216548306Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17)
+backend-1   | 2026-04-18T05:48:47.216549105Z     at async Collection.findOne (/app/node_modules/mongodb/lib/collection.js:277:21)
+backend-1   | 2026-04-18T05:48:47.216549892Z     at async model.Query._findOne (/app/node_modules/mongoose/lib/query.js:2687:15)
+backend-1   | 2026-04-18T05:48:47.216550692Z     at async model.Query.exec (/app/node_modules/mongoose/lib/query.js:4604:63) {
+backend-1   | 2026-04-18T05:48:47.216551490Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:47.216552316Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:47.216553079Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:47.216553896Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:47.216554729Z     stale: false,
+backend-1   | 2026-04-18T05:48:47.216555501Z     compatible: true,
+backend-1   | 2026-04-18T05:48:47.216556289Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:47.216557043Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:47.216557787Z     setName: null,
+backend-1   | 2026-04-18T05:48:47.216558497Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:47.216559209Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:47.216559925Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:47.216560656Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:47.216561432Z   },
+backend-1   | 2026-04-18T05:48:47.216562116Z   code: undefined,
+backend-1   | 2026-04-18T05:48:47.216562854Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:47.216563649Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:47.216564486Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:47.216565271Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:47.216566035Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:47.216566802Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:47.216567585Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:47.216568392Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:47.216569150Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:47.216569887Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:47.216570654Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:47.216572723Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:47.216573492Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:47.216574237Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:47.216574984Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:47.216575765Z     }
+backend-1   | 2026-04-18T05:48:47.216576503Z   }
+backend-1   | 2026-04-18T05:48:47.216577218Z }
+backend-1   | 2026-04-18T05:48:49.218086902Z Error searching products: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:49.218104077Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:49.218105583Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:49.218106727Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:49.218107658Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:49.218108451Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:49.218109256Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:49.218110065Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:49.218110872Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:49.218111652Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:49.218112446Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+mongodb-1   | 2026-04-18T05:48:13.267110018Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":23377,   "ctx":"SignalHandler","msg":"Received signal","attr":{"signal":15,"error":"Terminated"}}
+mongodb-1   | 2026-04-18T05:48:13.267130424Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":23378,   "ctx":"SignalHandler","msg":"Signal was sent by kill(2)","attr":{"pid":0,"uid":0}}
+mongodb-1   | 2026-04-18T05:48:13.267133479Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":23381,   "ctx":"SignalHandler","msg":"will terminate after current cmd ends"}
+mongodb-1   | 2026-04-18T05:48:13.267148478Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"REPL",     "id":4784900, "ctx":"SignalHandler","msg":"Stepping down the ReplicationCoordinator for shutdown","attr":{"waitTimeMillis":15000}}
+mongodb-1   | 2026-04-18T05:48:13.267254550Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"REPL",     "id":4794602, "ctx":"SignalHandler","msg":"Attempting to enter quiesce mode"}
+mongodb-1   | 2026-04-18T05:48:13.267260390Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"-",        "id":6371601, "ctx":"SignalHandler","msg":"Shutting down the FLE Crud thread pool"}
+mongodb-1   | 2026-04-18T05:48:13.267262270Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"COMMAND",  "id":4784901, "ctx":"SignalHandler","msg":"Shutting down the MirrorMaestro"}
+mongodb-1   | 2026-04-18T05:48:13.267263759Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"SHARDING", "id":4784902, "ctx":"SignalHandler","msg":"Shutting down the WaitForMajorityService"}
+mongodb-1   | 2026-04-18T05:48:13.267372030Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":4784903, "ctx":"SignalHandler","msg":"Shutting down the LogicalSessionCache"}
+mongodb-1   | 2026-04-18T05:48:13.267463602Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"NETWORK",  "id":20562,   "ctx":"SignalHandler","msg":"Shutdown: going to close listening sockets"}
+mongodb-1   | 2026-04-18T05:48:13.267487847Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"NETWORK",  "id":23017,   "ctx":"listener","msg":"removing socket file","attr":{"path":"/tmp/mongodb-27017.sock"}}
+mongodb-1   | 2026-04-18T05:48:13.267562267Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"NETWORK",  "id":4784905, "ctx":"SignalHandler","msg":"Shutting down the global connection pool"}
+mongodb-1   | 2026-04-18T05:48:13.267571761Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":4784906, "ctx":"SignalHandler","msg":"Shutting down the FlowControlTicketholder"}
+mongodb-1   | 2026-04-18T05:48:13.267575561Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"-",        "id":20520,   "ctx":"SignalHandler","msg":"Stopping further Flow Control ticket acquisitions."}
+mongodb-1   | 2026-04-18T05:48:13.267578359Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":4784908, "ctx":"SignalHandler","msg":"Shutting down the PeriodicThreadToAbortExpiredTransactions"}
+mongodb-1   | 2026-04-18T05:48:13.267605562Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"REPL",     "id":4784909, "ctx":"SignalHandler","msg":"Shutting down the ReplicationCoordinator"}
+mongodb-1   | 2026-04-18T05:48:13.267609394Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"SHARDING", "id":4784910, "ctx":"SignalHandler","msg":"Shutting down the ShardingInitializationMongoD"}
+mongodb-1   | 2026-04-18T05:48:13.267612040Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"REPL",     "id":4784911, "ctx":"SignalHandler","msg":"Enqueuing the ReplicationStateTransitionLock for shutdown"}
+mongodb-1   | 2026-04-18T05:48:13.267628129Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"-",        "id":4784912, "ctx":"SignalHandler","msg":"Killing all operations for shutdown"}
+mongodb-1   | 2026-04-18T05:48:13.267631362Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"-",        "id":4695300, "ctx":"SignalHandler","msg":"Interrupted all currently running operations","attr":{"opsKilled":4}}
+mongodb-1   | 2026-04-18T05:48:13.267634140Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"TENANT_M", "id":5093807, "ctx":"SignalHandler","msg":"Shutting down all TenantMigrationAccessBlockers on global shutdown"}
+mongodb-1   | 2026-04-18T05:48:13.267636747Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"COMMAND",  "id":4784913, "ctx":"SignalHandler","msg":"Shutting down all open transactions"}
+mongodb-1   | 2026-04-18T05:48:13.267650751Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"REPL",     "id":4784914, "ctx":"SignalHandler","msg":"Acquiring the ReplicationStateTransitionLock for shutdown"}
+mongodb-1   | 2026-04-18T05:48:13.267659164Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"INDEX",    "id":4784915, "ctx":"SignalHandler","msg":"Shutting down the IndexBuildsCoordinator"}
+mongodb-1   | 2026-04-18T05:48:13.267662772Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"NETWORK",  "id":4784918, "ctx":"SignalHandler","msg":"Shutting down the ReplicaSetMonitor"}
+mongodb-1   | 2026-04-18T05:48:13.267672265Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"SHARDING", "id":4784921, "ctx":"SignalHandler","msg":"Shutting down the MigrationUtilExecutor"}
+mongodb-1   | 2026-04-18T05:48:13.267730605Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"MigrationUtil-TaskExecutor","msg":"Killing all outstanding egress activity."}
+mongodb-1   | 2026-04-18T05:48:13.267827454Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"COMMAND",  "id":4784923, "ctx":"SignalHandler","msg":"Shutting down the ServiceEntryPoint"}
+mongodb-1   | 2026-04-18T05:48:13.267829655Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":4784927, "ctx":"SignalHandler","msg":"Shutting down the HealthLog"}
+mongodb-1   | 2026-04-18T05:48:13.267830969Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":4784928, "ctx":"SignalHandler","msg":"Shutting down the TTL monitor"}
+mongodb-1   | 2026-04-18T05:48:13.267832266Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"INDEX",    "id":3684100, "ctx":"SignalHandler","msg":"Shutting down TTL collection monitor thread"}
+mongodb-1   | 2026-04-18T05:48:13.267833570Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"INDEX",    "id":3684101, "ctx":"SignalHandler","msg":"Finished shutting down TTL collection monitor thread"}
+mongodb-1   | 2026-04-18T05:48:13.267835984Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":6278511, "ctx":"SignalHandler","msg":"Shutting down the Change Stream Expired Pre-images Remover"}
+mongodb-1   | 2026-04-18T05:48:13.267838106Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":4784929, "ctx":"SignalHandler","msg":"Acquiring the global lock for shutdown"}
+mongodb-1   | 2026-04-18T05:48:13.267839794Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"CONTROL",  "id":4784930, "ctx":"SignalHandler","msg":"Shutting down the storage engine"}
+mongodb-1   | 2026-04-18T05:48:13.267842648Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":22320,   "ctx":"SignalHandler","msg":"Shutting down journal flusher thread"}
+mongodb-1   | 2026-04-18T05:48:13.267847033Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":22321,   "ctx":"SignalHandler","msg":"Finished shutting down journal flusher thread"}
+mongodb-1   | 2026-04-18T05:48:13.267848884Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":22322,   "ctx":"SignalHandler","msg":"Shutting down checkpoint thread"}
+mongodb-1   | 2026-04-18T05:48:13.267877972Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":22323,   "ctx":"SignalHandler","msg":"Finished shutting down checkpoint thread"}
+mongodb-1   | 2026-04-18T05:48:13.267880621Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":22261,   "ctx":"SignalHandler","msg":"Timestamp monitor shutting down"}
+mongodb-1   | 2026-04-18T05:48:13.267951177Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":20282,   "ctx":"SignalHandler","msg":"Deregistering all the collections"}
+mongodb-1   | 2026-04-18T05:48:13.267987644Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":22317,   "ctx":"SignalHandler","msg":"WiredTigerKVEngine shutting down"}
+mongodb-1   | 2026-04-18T05:48:13.267990641Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":22318,   "ctx":"SignalHandler","msg":"Shutting down session sweeper thread"}
+mongodb-1   | 2026-04-18T05:48:13.268004402Z {"t":{"$date":"2026-04-18T05:48:13.267+00:00"},"s":"I",  "c":"STORAGE",  "id":22319,   "ctx":"SignalHandler","msg":"Finished shutting down session sweeper thread"}
+mongodb-1   | 2026-04-18T05:48:13.268044646Z {"t":{"$date":"2026-04-18T05:48:13.268+00:00"},"s":"I",  "c":"STORAGE",  "id":4795902, "ctx":"SignalHandler","msg":"Closing WiredTiger","attr":{"closeConfig":"leak_memory=true,"}}
+mongodb-1   | 2026-04-18T05:48:13.268318582Z {"t":{"$date":"2026-04-18T05:48:13.268+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"SignalHandler","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491293,"ts_usec":268271,"thread":"1:0x7b89fd4cd640","session_name":"close_ckpt","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 34, snapshot max: 34 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 365"}}}
+mongodb-1   | 2026-04-18T05:48:13.270079000Z {"t":{"$date":"2026-04-18T05:48:13.270+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"SignalHandler","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491293,"ts_usec":270021,"thread":"1:0x7b89fd4cd640","session_name":"WT_CONNECTION.close","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"shutdown checkpoint has successfully finished and ran for 1 milliseconds"}}}
+mongodb-1   | 2026-04-18T05:48:13.270095360Z {"t":{"$date":"2026-04-18T05:48:13.270+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"SignalHandler","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491293,"ts_usec":270068,"thread":"1:0x7b89fd4cd640","session_name":"WT_CONNECTION.close","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"shutdown was completed successfully and took 2ms, including 0ms for the rollback to stable, and 1ms for the checkpoint."}}}
+mongodb-1   | 2026-04-18T05:48:13.271741798Z {"t":{"$date":"2026-04-18T05:48:13.271+00:00"},"s":"I",  "c":"STORAGE",  "id":4795901, "ctx":"SignalHandler","msg":"WiredTiger closed","attr":{"durationMillis":3}}
+mongodb-1   | 2026-04-18T05:48:13.271758142Z {"t":{"$date":"2026-04-18T05:48:13.271+00:00"},"s":"I",  "c":"STORAGE",  "id":22279,   "ctx":"SignalHandler","msg":"shutdown: removing fs lock..."}
+mongodb-1   | 2026-04-18T05:48:13.271759320Z {"t":{"$date":"2026-04-18T05:48:13.271+00:00"},"s":"I",  "c":"-",        "id":4784931, "ctx":"SignalHandler","msg":"Dropping the scope cache for shutdown"}
+mongodb-1   | 2026-04-18T05:48:13.271760421Z {"t":{"$date":"2026-04-18T05:48:13.271+00:00"},"s":"I",  "c":"FTDC",     "id":20626,   "ctx":"SignalHandler","msg":"Shutting down full-time diagnostic data capture"}
+mongodb-1   | 2026-04-18T05:48:13.273562608Z {"t":{"$date":"2026-04-18T05:48:13.273+00:00"},"s":"I",  "c":"CONTROL",  "id":20565,   "ctx":"SignalHandler","msg":"Now exiting"}
+mongodb-1   | 2026-04-18T05:48:13.273595562Z {"t":{"$date":"2026-04-18T05:48:13.273+00:00"},"s":"I",  "c":"CONTROL",  "id":8423404, "ctx":"SignalHandler","msg":"mongod shutdown complete","attr":{"Summary of time elapsed":{"Statistics":{"Enter terminal shutdown":"0 ms","Step down the replication coordinator for shutdown":"0 ms","Time spent in quiesce mode":"0 ms","Shut down FLE Crud subsystem":"0 ms","Shut down MirrorMaestro":"0 ms","Shut down WaitForMajorityService":"0 ms","Shut down the logical session cache":"0 ms","Shut down the transport layer":"0 ms","Shut down the global connection pool":"0 ms","Shut down the flow control ticket holder":"0 ms","Kill all operations for shutdown":"0 ms","Shut down all tenant migration access blockers on global shutdown":"0 ms","Shut down all open transactions":"0 ms","Acquire the RSTL for shutdown":"0 ms","Shut down the IndexBuildsCoordinator and wait for index builds to finish":"0 ms","Shut down the replica set monitor":"0 ms","Shut down the migration util executor":"0 ms","Shut down the health log":"0 ms","Shut down the TTL monitor":"0 ms","Shut down expired pre-images remover":"0 ms","Shut down the storage engine":"4 ms","Shut down full-time data capture":"0 ms","shutdownTask total elapsed time":"6 ms"}}}}
+mongodb-1   | 2026-04-18T05:48:13.273602068Z {"t":{"$date":"2026-04-18T05:48:13.273+00:00"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"SignalHandler","msg":"Shutting down","attr":{"exitCode":0}}
+mongodb-1   | 2026-04-18T05:48:58.545191797Z {"t":{"$date":"2026-04-18T05:48:58.545+00:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"-","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+mongodb-1   | 2026-04-18T05:48:58.545370241Z {"t":{"$date":"2026-04-18T05:48:58.545+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"-","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":17},"outgoing":{"minWireVersion":6,"maxWireVersion":17},"isInternalClient":true}}}
+mongodb-1   | 2026-04-18T05:48:58.546463683Z {"t":{"$date":"2026-04-18T05:48:58.546+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"main","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize."}
+mongodb-1   | 2026-04-18T05:48:58.547075037Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationDonorService","namespace":"config.tenantMigrationDonors"}}
+mongodb-1   | 2026-04-18T05:48:58.547086090Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationRecipientService","namespace":"config.tenantMigrationRecipients"}}
+mongodb-1   | 2026-04-18T05:48:58.547088802Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"main","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"ShardSplitDonorService","namespace":"config.tenantSplitDonors"}}
+mongodb-1   | 2026-04-18T05:48:58.547092278Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+mongodb-1   | 2026-04-18T05:48:58.547266385Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"a124de06b5e1"}}
+mongodb-1   | 2026-04-18T05:48:58.547274068Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"6.0.27","gitVersion":"fc88ca137231d7457aed6265d4f32a361ae71716","openSSLVersion":"OpenSSL 3.0.2 15 Mar 2022","modules":[],"allocator":"tcmalloc","environment":{"distmod":"ubuntu2204","distarch":"x86_64","target_arch":"x86_64"}}}}
+mongodb-1   | 2026-04-18T05:48:58.547278227Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"22.04"}}}
+mongodb-1   | 2026-04-18T05:48:58.547280237Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"}}}}
+mongodb-1   | 2026-04-18T05:48:58.547616010Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"STORAGE",  "id":22270,   "ctx":"initandlisten","msg":"Storage engine to use detected by data files","attr":{"dbpath":"/data/db","storageEngine":"wiredTiger"}}
+mongodb-1   | 2026-04-18T05:48:58.547629412Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
+mongodb-1   | 2026-04-18T05:48:58.547643161Z {"t":{"$date":"2026-04-18T05:48:58.547+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=7313M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,backup:0,checkpoint:0,compact:0,evict:0,history_store:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+mongodb-1   | 2026-04-18T05:48:58.632688712Z {"t":{"$date":"2026-04-18T05:48:58.632+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":632474,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"Recovering log 7 through 8"}}}
+mongodb-1   | 2026-04-18T05:48:58.659702041Z {"t":{"$date":"2026-04-18T05:48:58.659+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":659539,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"Recovering log 8 through 8"}}}
+mongodb-1   | 2026-04-18T05:48:58.689407300Z {"t":{"$date":"2026-04-18T05:48:58.689+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":689177,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"Main recovery loop: starting at 7/15872 to 8/256"}}}
+mongodb-1   | 2026-04-18T05:48:58.731956501Z {"t":{"$date":"2026-04-18T05:48:58.731+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":731804,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"Recovering log 7 through 8"}}}
+mongodb-1   | 2026-04-18T05:48:58.755482185Z {"t":{"$date":"2026-04-18T05:48:58.755+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":755194,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"Recovering log 8 through 8"}}}
+mongodb-1   | 2026-04-18T05:48:58.776151705Z {"t":{"$date":"2026-04-18T05:48:58.775+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":775975,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"recovery log replay has successfully finished and ran for 143 milliseconds"}}}
+mongodb-1   | 2026-04-18T05:48:58.776168837Z {"t":{"$date":"2026-04-18T05:48:58.776+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":776014,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+mongodb-1   | 2026-04-18T05:48:58.776171391Z {"t":{"$date":"2026-04-18T05:48:58.776+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":776021,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+mongodb-1   | 2026-04-18T05:48:58.776330451Z {"t":{"$date":"2026-04-18T05:48:58.776+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":776303,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"recovery rollback to stable has successfully finished and ran for 0 milliseconds"}}}
+mongodb-1   | 2026-04-18T05:48:58.777551204Z {"t":{"$date":"2026-04-18T05:48:58.777+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":777322,"thread":"1:0x7a9076142cc0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 1, snapshot max: 1 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 390"}}}
+mongodb-1   | 2026-04-18T05:48:58.779175187Z {"t":{"$date":"2026-04-18T05:48:58.778+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":778972,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"recovery checkpoint has successfully finished and ran for 2 milliseconds"}}}
+mongodb-1   | 2026-04-18T05:48:58.779186899Z {"t":{"$date":"2026-04-18T05:48:58.779+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491338,"ts_usec":778999,"thread":"1:0x7a9076142cc0","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":30,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"recovery was completed successfully and took 146ms, including 143ms for the log replay, 0ms for the rollback to stable, and 2ms for the checkpoint."}}}
+mongodb-1   | 2026-04-18T05:48:58.779504921Z {"t":{"$date":"2026-04-18T05:48:58.779+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":232}}
+mongodb-1   | 2026-04-18T05:48:58.779511097Z {"t":{"$date":"2026-04-18T05:48:58.779+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+mongodb-1   | 2026-04-18T05:48:58.782406127Z {"t":{"$date":"2026-04-18T05:48:58.782+00:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
+mongodb-1   | 2026-04-18T05:48:58.782415710Z {"t":{"$date":"2026-04-18T05:48:58.782+00:00"},"s":"W",  "c":"CONTROL",  "id":22184,   "ctx":"initandlisten","msg":"Soft rlimits for open file descriptors too low","attr":{"currentValue":1024,"recommendedMinimum":64000},"tags":["startupWarnings"]}
+mongodb-1   | 2026-04-18T05:48:58.783386169Z {"t":{"$date":"2026-04-18T05:48:58.783+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":17},"outgoing":{"minWireVersion":6,"maxWireVersion":17},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":17,"maxWireVersion":17},"outgoing":{"minWireVersion":17,"maxWireVersion":17},"isInternalClient":true}}}
+mongodb-1   | 2026-04-18T05:48:58.783394293Z {"t":{"$date":"2026-04-18T05:48:58.783+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"6.0","context":"startup"}}
+mongodb-1   | 2026-04-18T05:48:58.783396044Z {"t":{"$date":"2026-04-18T05:48:58.783+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+mongodb-1   | 2026-04-18T05:48:58.785707992Z {"t":{"$date":"2026-04-18T05:48:58.785+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+mongodb-1   | 2026-04-18T05:48:58.785765913Z {"t":{"$date":"2026-04-18T05:48:58.785+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
+mongodb-1   | 2026-04-18T05:48:58.787456483Z {"t":{"$date":"2026-04-18T05:48:58.787+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+mongodb-1   | 2026-04-18T05:48:58.787464351Z {"t":{"$date":"2026-04-18T05:48:58.787+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+mongodb-1   | 2026-04-18T05:48:58.787885100Z {"t":{"$date":"2026-04-18T05:48:58.787+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+mongodb-1   | 2026-04-18T05:48:58.787893538Z {"t":{"$date":"2026-04-18T05:48:58.787+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0"}}
+mongodb-1   | 2026-04-18T05:48:58.787896712Z {"t":{"$date":"2026-04-18T05:48:58.787+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+mongodb-1   | 2026-04-18T05:48:58.787929374Z {"t":{"$date":"2026-04-18T05:48:58.787+00:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"Transport layer setup":"0 ms","Run initial syncer crash recovery":"0 ms","Create storage engine lock file in the data directory":"0 ms","Create storage engine lock file in the data directory":"0 ms","Get metadata describing storage engine":"0 ms","Get metadata describing storage engine":"0 ms","Validate options in metadata against current startup options":"0 ms","Validate options in metadata against current startup options":"0 ms","Create storage engine":"0 ms","Create storage engine":"232 ms","Write current PID to file":"0 ms","Write current PID to file":"0 ms","Initialize FCV before rebuilding indexes":"0 ms","Initialize FCV before rebuilding indexes":"1 ms","Drop abandoned idents and get back indexes that need to be rebuilt or builds that need to be restarted":"0 ms","Drop abandoned idents and get back indexes that need to be rebuilt or builds that need to be restarted":"0 ms","Rebuild indexes for collections":"0 ms","Rebuild indexes for collections":"0 ms","Build user and roles graph":"0 ms","Set up the background thread pool responsible for waiting for opTimes to be majority committed":"0 ms","Start up the replication coordinator":"1 ms","Start transport layer":"0 ms","_initAndListen total elapsed time":"240 ms"}}}}
+mongodb-1   | 2026-04-18T05:49:00.462084713Z {"t":{"$date":"2026-04-18T05:49:00.461+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59868","uuid":"a46f5b84-4bbc-4ce0-b15f-b43f712fdaa7","connectionId":1,"connectionCount":1}}
+mongodb-1   | 2026-04-18T05:49:00.462354319Z {"t":{"$date":"2026-04-18T05:49:00.462+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn1","msg":"client metadata","attr":{"remote":"172.19.0.3:59868","client":"conn1","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:00.464816882Z {"t":{"$date":"2026-04-18T05:49:00.464+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59878","uuid":"24cb3b19-49fe-4ceb-814a-1921919e9919","connectionId":2,"connectionCount":2}}
+mongodb-1   | 2026-04-18T05:49:00.465122460Z {"t":{"$date":"2026-04-18T05:49:00.464+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn2","msg":"client metadata","attr":{"remote":"172.19.0.3:59878","client":"conn2","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+backend-1   | 2026-04-18T05:48:49.218113257Z   errorLabelSet: Set(0) {},
+mongodb-1   | 2026-04-18T05:49:00.466498744Z {"t":{"$date":"2026-04-18T05:49:00.466+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59884","uuid":"769f8465-eefa-4105-8f9b-95e4357c42ea","connectionId":3,"connectionCount":3}}
+mongodb-1   | 2026-04-18T05:49:00.466511363Z {"t":{"$date":"2026-04-18T05:49:00.466+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59892","uuid":"3da35739-864c-475f-a818-f44d661c0c26","connectionId":4,"connectionCount":4}}
+mongodb-1   | 2026-04-18T05:49:00.466631808Z {"t":{"$date":"2026-04-18T05:49:00.466+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn3","msg":"client metadata","attr":{"remote":"172.19.0.3:59884","client":"conn3","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:00.469664490Z {"t":{"$date":"2026-04-18T05:49:00.469+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn4","msg":"client metadata","attr":{"remote":"172.19.0.3:59892","client":"conn4","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:00.471126190Z {"t":{"$date":"2026-04-18T05:49:00.471+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59898","uuid":"81de882c-ea71-4246-bd2b-6068ea15ca95","connectionId":5,"connectionCount":5}}
+mongodb-1   | 2026-04-18T05:49:00.471174365Z {"t":{"$date":"2026-04-18T05:49:00.471+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59910","uuid":"3e332e2b-9ea5-45a7-a073-225d37167397","connectionId":6,"connectionCount":6}}
+mongodb-1   | 2026-04-18T05:49:00.700783746Z {"t":{"$date":"2026-04-18T05:49:00.700+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn5","msg":"client metadata","attr":{"remote":"172.19.0.3:59898","client":"conn5","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:00.700810523Z {"t":{"$date":"2026-04-18T05:49:00.700+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn6","msg":"client metadata","attr":{"remote":"172.19.0.3:59910","client":"conn6","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:01.011570409Z {"t":{"$date":"2026-04-18T05:49:01.011+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59914","uuid":"82882671-8f50-4686-aa57-ea4b16517f2a","connectionId":7,"connectionCount":7}}
+mongodb-1   | 2026-04-18T05:49:01.011588771Z {"t":{"$date":"2026-04-18T05:49:01.011+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59930","uuid":"b1768bcd-bd59-43b2-b90c-143e8eb3021d","connectionId":8,"connectionCount":8}}
+mongodb-1   | 2026-04-18T05:49:01.219850077Z {"t":{"$date":"2026-04-18T05:49:01.219+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn7","msg":"client metadata","attr":{"remote":"172.19.0.3:59914","client":"conn7","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:01.219868784Z {"t":{"$date":"2026-04-18T05:49:01.219+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn8","msg":"client metadata","attr":{"remote":"172.19.0.3:59930","client":"conn8","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:01.907779848Z {"t":{"$date":"2026-04-18T05:49:01.907+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59934","uuid":"49e5465c-b1f4-4122-a6cb-190df05383eb","connectionId":9,"connectionCount":9}}
+mongodb-1   | 2026-04-18T05:49:01.907801385Z {"t":{"$date":"2026-04-18T05:49:01.907+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59950","uuid":"f7b6812a-129c-4c0a-b78f-495e0f9da531","connectionId":10,"connectionCount":10}}
+mongodb-1   | 2026-04-18T05:49:02.404162199Z {"t":{"$date":"2026-04-18T05:49:02.403+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn9","msg":"client metadata","attr":{"remote":"172.19.0.3:59934","client":"conn9","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:02.404195565Z {"t":{"$date":"2026-04-18T05:49:02.403+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn10","msg":"client metadata","attr":{"remote":"172.19.0.3:59950","client":"conn10","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:03.313565136Z {"t":{"$date":"2026-04-18T05:49:03.313+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59954","uuid":"bde7b796-9859-4bd9-801e-04058738eb6d","connectionId":11,"connectionCount":11}}
+mongodb-1   | 2026-04-18T05:49:03.313589184Z {"t":{"$date":"2026-04-18T05:49:03.313+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59964","uuid":"66fbf61a-48ca-4e89-9109-0bb5f1cca8b1","connectionId":12,"connectionCount":12}}
+backend-1   | 2026-04-18T05:48:49.218113996Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:49.218114731Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:49.218115471Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:49.218116447Z     stale: false,
+backend-1   | 2026-04-18T05:48:49.218117161Z     compatible: true,
+backend-1   | 2026-04-18T05:48:49.218117914Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:49.218118644Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:49.218119347Z     setName: null,
+backend-1   | 2026-04-18T05:48:49.218120044Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:49.218120737Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:49.218121425Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:49.218122148Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:49.218122933Z   },
+backend-1   | 2026-04-18T05:48:49.218123662Z   code: undefined,
+backend-1   | 2026-04-18T05:48:49.218124381Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:49.218125136Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:49.218126038Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:49.218133809Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:49.218134616Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:49.218135394Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:49.218136175Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:49.218136948Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:49.218137691Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:49.218138395Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:49.218139136Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+mongodb-1   | 2026-04-18T05:49:03.701804395Z {"t":{"$date":"2026-04-18T05:49:03.701+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn11","msg":"client metadata","attr":{"remote":"172.19.0.3:59954","client":"conn11","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:03.701827873Z {"t":{"$date":"2026-04-18T05:49:03.701+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn12","msg":"client metadata","attr":{"remote":"172.19.0.3:59964","client":"conn12","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+backend-1   | 2026-04-18T05:48:49.218139890Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:49.218140636Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:49.218141368Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:49.218142633Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:49.218143379Z     }
+backend-1   | 2026-04-18T05:48:49.218144098Z   }
+backend-1   | 2026-04-18T05:48:49.218144809Z }
+backend-1   | 2026-04-18T05:48:49.218303770Z getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:49.218523977Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:49.218525401Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:49.218526430Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:49.218527271Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:49.218528179Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:49.218528986Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:49.218529761Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:49.218530523Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17)
+backend-1   | 2026-04-18T05:48:49.218531275Z     at async Collection.findOne (/app/node_modules/mongodb/lib/collection.js:277:21)
+backend-1   | 2026-04-18T05:48:49.218532009Z     at async model.Query._findOne (/app/node_modules/mongoose/lib/query.js:2687:15)
+backend-1   | 2026-04-18T05:48:49.218532781Z     at async model.Query.exec (/app/node_modules/mongoose/lib/query.js:4604:63) {
+backend-1   | 2026-04-18T05:48:49.218533534Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:49.218534271Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:49.218535092Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:49.218535779Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:49.218536562Z     stale: false,
+backend-1   | 2026-04-18T05:48:49.218538505Z     compatible: true,
+backend-1   | 2026-04-18T05:48:49.218539231Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:49.218539954Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:49.218540633Z     setName: null,
+backend-1   | 2026-04-18T05:48:49.218541312Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:49.218542009Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:49.218542692Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:49.218543389Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:49.218544092Z   },
+backend-1   | 2026-04-18T05:48:49.218544739Z   code: undefined,
+backend-1   | 2026-04-18T05:48:49.218545435Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:49.218546191Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:49.218547017Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:49.218547730Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:49.218548460Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:49.218549205Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:49.218549951Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:49.218550715Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:49.218551440Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:49.218552142Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:49.218552881Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:49.218553761Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:49.218556454Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:49.218557186Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:49.218557884Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:49.218558596Z     }
+backend-1   | 2026-04-18T05:48:49.218559270Z   }
+backend-1   | 2026-04-18T05:48:49.218559961Z }
+backend-1   | 2026-04-18T05:48:51.217906837Z Error searching products: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:51.217920913Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:51.217922035Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:51.217922791Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:51.217923507Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:51.217924284Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:51.217925075Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:51.217925840Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:51.217933943Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:51.217934810Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:51.217935619Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:51.217936406Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:51.217937125Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:51.217937828Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:51.217938537Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:51.217939683Z     stale: false,
+backend-1   | 2026-04-18T05:48:51.217940390Z     compatible: true,
+backend-1   | 2026-04-18T05:48:51.217941412Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:51.217942204Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:51.217942903Z     setName: null,
+backend-1   | 2026-04-18T05:48:51.217943571Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:51.217944241Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:51.217944910Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:51.217945636Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:51.217946369Z   },
+backend-1   | 2026-04-18T05:48:51.217947050Z   code: undefined,
+backend-1   | 2026-04-18T05:48:51.217947768Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:51.217948529Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:51.217949375Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:51.217950114Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:51.217950810Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:51.217951539Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:51.217952278Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:51.217953036Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:51.217953754Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:51.217954439Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:51.217955148Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:51.217955904Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:51.217956592Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:51.217957315Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:51.217958874Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:51.217960187Z     }
+backend-1   | 2026-04-18T05:48:51.217973392Z   }
+backend-1   | 2026-04-18T05:48:51.217974428Z }
+backend-1   | 2026-04-18T05:48:51.218241633Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:51.218251464Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:51.218252314Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:51.218253055Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:51.218253755Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:51.218254475Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:51.218255228Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:51.218255991Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:51.218256742Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:51.218257487Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:51.218258219Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:51.218258972Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:51.218259670Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:51.218260381Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:51.218261044Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:51.218261801Z     stale: false,
+backend-1   | 2026-04-18T05:48:51.218262466Z     compatible: true,
+backend-1   | 2026-04-18T05:48:51.218263152Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:51.218263812Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:51.218264469Z     setName: null,
+backend-1   | 2026-04-18T05:48:51.218265113Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:51.218265777Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:51.218268593Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:51.218269282Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:51.218270000Z   },
+backend-1   | 2026-04-18T05:48:51.218270710Z   code: undefined,
+backend-1   | 2026-04-18T05:48:51.218271413Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:51.218272144Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:51.218272931Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:51.218273593Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:51.218274258Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:51.218274951Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:51.218275683Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:51.218276402Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:51.218277856Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:51.218278533Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:51.218279231Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:51.218279948Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:51.218280599Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:51.218281266Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:51.218282098Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:51.218282794Z     }
+backend-1   | 2026-04-18T05:48:51.218283445Z   }
+backend-1   | 2026-04-18T05:48:51.218284086Z }
+backend-1   | 2026-04-18T05:48:51.218436715Z getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:53.217450226Z Error searching products: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:53.217467892Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:53.217470123Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:53.217471728Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:53.217473164Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:53.217474618Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:53.217476038Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:53.217477399Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:53.217478755Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:53.217480395Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:53.217481828Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:53.217483169Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:53.217484404Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:53.217485698Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:53.217486960Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:53.217488580Z     stale: false,
+backend-1   | 2026-04-18T05:48:53.217489797Z     compatible: true,
+backend-1   | 2026-04-18T05:48:53.217491071Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:53.217492341Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:53.217493557Z     setName: null,
+backend-1   | 2026-04-18T05:48:53.217494850Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:53.217496156Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:53.217497443Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:53.217498720Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:53.217508618Z   },
+backend-1   | 2026-04-18T05:48:53.217510425Z   code: undefined,
+backend-1   | 2026-04-18T05:48:53.217511778Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:53.217513107Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:53.217514590Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:53.217515910Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:53.217517148Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:53.217518434Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:53.217519755Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:53.217521118Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:53.217522375Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:53.217523668Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:53.217525057Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:53.217526538Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:53.217527829Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:53.217529112Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:53.217548667Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:53.217558018Z     }
+backend-1   | 2026-04-18T05:48:53.217559190Z   }
+backend-1   | 2026-04-18T05:48:53.217560016Z }
+backend-1   | 2026-04-18T05:48:53.217560797Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:53.217561655Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:53.217562435Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:53.217563223Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:53.217563987Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:53.217564758Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:53.217565504Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:53.217566268Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17)
+backend-1   | 2026-04-18T05:48:53.217567024Z     at async Collection.findOne (/app/node_modules/mongodb/lib/collection.js:277:21)
+backend-1   | 2026-04-18T05:48:53.217567754Z     at async model.Query._findOne (/app/node_modules/mongoose/lib/query.js:2687:15)
+backend-1   | 2026-04-18T05:48:53.217568497Z     at async model.Query.exec (/app/node_modules/mongoose/lib/query.js:4604:63) {
+backend-1   | 2026-04-18T05:48:53.217569256Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:53.217569970Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:53.217582154Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:53.217583034Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:53.217583875Z     stale: false,
+backend-1   | 2026-04-18T05:48:53.217584583Z     compatible: true,
+backend-1   | 2026-04-18T05:48:53.217585312Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:53.217586009Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:53.217586698Z     setName: null,
+backend-1   | 2026-04-18T05:48:53.217587370Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:53.217588064Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:53.217588732Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:53.217589445Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:53.217590185Z   },
+backend-1   | 2026-04-18T05:48:53.217590874Z   code: undefined,
+backend-1   | 2026-04-18T05:48:53.217591589Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:53.217592355Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:53.217593246Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:53.217593998Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:53.217594697Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:53.217595426Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:53.217596164Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:53.217597148Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:53.217597900Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:53.217598661Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:53.217599841Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:53.217600607Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:53.217601296Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:53.217601999Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:53.217602725Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:53.217603419Z     }
+backend-1   | 2026-04-18T05:48:53.217604101Z   }
+backend-1   | 2026-04-18T05:48:53.217604773Z }
+backend-1   | 2026-04-18T05:48:53.217746062Z getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:55.216543645Z Error searching products: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:55.216564928Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:55.216567305Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:55.216568991Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:55.216579396Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:55.216581363Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:55.216583006Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:55.216584591Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17)
+backend-1   | 2026-04-18T05:48:55.216586158Z     at async [Symbol.asyncIterator] (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:255:34)
+backend-1   | 2026-04-18T05:48:55.216587703Z     at async FindCursor.toArray (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:427:26)
+backend-1   | 2026-04-18T05:48:55.216589229Z     at async model.Query._find (/app/node_modules/mongoose/lib/query.js:2407:14) {
+backend-1   | 2026-04-18T05:48:55.216590802Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:55.216592229Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:55.216593715Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:55.216595145Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:55.216596892Z     stale: false,
+backend-1   | 2026-04-18T05:48:55.216598285Z     compatible: true,
+backend-1   | 2026-04-18T05:48:55.216599738Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:55.216601134Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:55.216602564Z     setName: null,
+backend-1   | 2026-04-18T05:48:55.216603964Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:55.216605373Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:55.216606770Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:55.216608231Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:55.216609691Z   },
+backend-1   | 2026-04-18T05:48:55.216611093Z   code: undefined,
+backend-1   | 2026-04-18T05:48:55.216612488Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:55.216614397Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:55.216616046Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:55.216617528Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:55.216618931Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:55.216620413Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:55.216621912Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:55.216623435Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:55.216624886Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:55.216626312Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:55.216628573Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:55.216630177Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:55.216633668Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:55.216635336Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:55.216636831Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:55.216638281Z     }
+backend-1   | 2026-04-18T05:48:55.216639803Z   }
+backend-1   | 2026-04-18T05:48:55.216641259Z }
+backend-1   | 2026-04-18T05:48:55.217853873Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:55.217861212Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:55.217863354Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:55.217864891Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:55.217866312Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:55.217867680Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:55.217869139Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:55.217870572Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:55.217871997Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:55.217873362Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:55.217874754Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:55.217876170Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:55.217877467Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:55.217878757Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:55.217880171Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:55.217881652Z     stale: false,
+backend-1   | 2026-04-18T05:48:55.217882908Z     compatible: true,
+backend-1   | 2026-04-18T05:48:55.217884176Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:55.217885630Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:55.217887050Z     setName: null,
+backend-1   | 2026-04-18T05:48:55.217888466Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:55.217889894Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:55.217891289Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:55.217892739Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:55.217894188Z   },
+backend-1   | 2026-04-18T05:48:55.217895607Z   code: undefined,
+backend-1   | 2026-04-18T05:48:55.217897039Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:55.217898554Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:55.217909518Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:55.217915716Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:55.217917641Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:55.217919190Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:55.217920747Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:55.217922259Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:55.217923698Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:55.217925094Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:55.217926554Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:55.217928068Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:55.217929513Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:55.217930949Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:55.217932723Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:55.217934323Z     }
+backend-1   | 2026-04-18T05:48:55.217935814Z   }
+backend-1   | 2026-04-18T05:48:55.217937229Z }
+backend-1   | 2026-04-18T05:48:55.218011269Z getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:57.217654422Z Error searching products: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:57.217666249Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:57.217667598Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:57.217668712Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:57.217669444Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:57.217670220Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:57.217671320Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:57.217672588Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:57.217674471Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:57.217675298Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:57.217676401Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:57.217677182Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:57.217677940Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:57.217678694Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:57.217679397Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:57.217680306Z     stale: false,
+backend-1   | 2026-04-18T05:48:57.217680972Z     compatible: true,
+backend-1   | 2026-04-18T05:48:57.217681669Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:57.217689247Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:57.217689975Z     setName: null,
+backend-1   | 2026-04-18T05:48:57.217690655Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:57.217691336Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:57.217692029Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:57.217692724Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:57.217693466Z   },
+backend-1   | 2026-04-18T05:48:57.217694153Z   code: undefined,
+backend-1   | 2026-04-18T05:48:57.217694881Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:57.217695646Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:57.217696517Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:57.217697350Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:57.217698193Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:57.217698922Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:57.217699667Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:57.217700531Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:57.217701372Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:57.217702047Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:57.217702803Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:57.217703604Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:57.217704284Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:57.217704980Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:57.217705998Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:57.217706762Z     }
+backend-1   | 2026-04-18T05:48:57.217707473Z   }
+backend-1   | 2026-04-18T05:48:57.217708140Z }
+backend-1   | 2026-04-18T05:48:57.217823533Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:57.217829388Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:57.217830480Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:57.217831312Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:57.217832129Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:57.217832884Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:57.217833675Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:57.217834479Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:57.217835224Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:57.217839882Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:57.217840695Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:57.217841467Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:57.217842183Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:57.217842905Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:57.217843657Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:57.217844519Z     stale: false,
+backend-1   | 2026-04-18T05:48:57.217845219Z     compatible: true,
+backend-1   | 2026-04-18T05:48:57.217845925Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:57.217846604Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:57.217847280Z     setName: null,
+backend-1   | 2026-04-18T05:48:57.217847946Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:57.217848635Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:57.217849289Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:57.217849981Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:57.217850705Z   },
+backend-1   | 2026-04-18T05:48:57.217851388Z   code: undefined,
+backend-1   | 2026-04-18T05:48:57.217852100Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:57.217852896Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:57.217853739Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:57.217854604Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:57.217855309Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:57.217856059Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:57.217856787Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:57.217857549Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:57.217858260Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:57.217858997Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:57.217859701Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:57.217860449Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:57.217861146Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:57.217861866Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:57.217862845Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:57.217863548Z     }
+backend-1   | 2026-04-18T05:48:57.217864234Z   }
+backend-1   | 2026-04-18T05:48:57.217864922Z }
+backend-1   | 2026-04-18T05:48:57.217989238Z getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:59.217648320Z Error searching products: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:59.217661165Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:59.217662341Z     at runNextTicks (node:internal/process/task_queues:60:5)
+backend-1   | 2026-04-18T05:48:59.217663204Z     at listOnTimeout (node:internal/timers:538:9)
+backend-1   | 2026-04-18T05:48:59.217664012Z     at process.processTimers (node:internal/timers:512:7)
+backend-1   | 2026-04-18T05:48:59.217665265Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:59.217666115Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:59.217666949Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:59.217667764Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:59.217668570Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:59.217669405Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17) {
+backend-1   | 2026-04-18T05:48:59.217670228Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:59.217671015Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:59.217671758Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:59.217672502Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:59.217673503Z     stale: false,
+backend-1   | 2026-04-18T05:48:59.217674226Z     compatible: true,
+backend-1   | 2026-04-18T05:48:59.217675000Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:59.217675791Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:59.217676521Z     setName: null,
+backend-1   | 2026-04-18T05:48:59.217677238Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:59.217677967Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:59.217678691Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:59.217681910Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:59.217682755Z   },
+backend-1   | 2026-04-18T05:48:59.217683498Z   code: undefined,
+backend-1   | 2026-04-18T05:48:59.217684262Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:59.217685089Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:59.217686006Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:59.217686786Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:59.217687535Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:59.217688310Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:59.217689099Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:59.217689894Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:59.217690651Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:59.217692394Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:59.217693202Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:59.217694016Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:59.217694762Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:59.217695529Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:59.217696481Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:59.217697258Z     }
+backend-1   | 2026-04-18T05:48:59.217698138Z   }
+backend-1   | 2026-04-18T05:48:59.217698869Z }
+backend-1   | 2026-04-18T05:48:59.217732885Z getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:59.217973230Z Error tracking order: MongoServerSelectionError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:59.217974648Z     at Topology.selectServer (/app/node_modules/mongodb/lib/sdam/topology.js:326:38)
+backend-1   | 2026-04-18T05:48:59.217975513Z     at async tryOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:145:18)
+backend-1   | 2026-04-18T05:48:59.217976360Z     at async executeOperation (/app/node_modules/mongodb/lib/operations/execute_operation.js:75:16)
+backend-1   | 2026-04-18T05:48:59.217977204Z     at async FindCursor._initialize (/app/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)
+backend-1   | 2026-04-18T05:48:59.217978019Z     at async FindCursor.cursorInit (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)
+backend-1   | 2026-04-18T05:48:59.217978895Z     at async FindCursor.fetchBatch (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)
+backend-1   | 2026-04-18T05:48:59.217979730Z     at async FindCursor.next (/app/node_modules/mongodb/lib/cursor/abstract_cursor.js:347:17)
+backend-1   | 2026-04-18T05:48:59.217980542Z     at async Collection.findOne (/app/node_modules/mongodb/lib/collection.js:277:21)
+backend-1   | 2026-04-18T05:48:59.217981339Z     at async model.Query._findOne (/app/node_modules/mongoose/lib/query.js:2687:15)
+backend-1   | 2026-04-18T05:48:59.217982128Z     at async model.Query.exec (/app/node_modules/mongoose/lib/query.js:4604:63) {
+backend-1   | 2026-04-18T05:48:59.217982920Z   errorLabelSet: Set(0) {},
+backend-1   | 2026-04-18T05:48:59.217983710Z   reason: TopologyDescription {
+backend-1   | 2026-04-18T05:48:59.217984477Z     type: 'Single',
+backend-1   | 2026-04-18T05:48:59.217985214Z     servers: Map(1) { 'mongodb:27017' => [ServerDescription] },
+backend-1   | 2026-04-18T05:48:59.217986046Z     stale: false,
+backend-1   | 2026-04-18T05:48:59.217986783Z     compatible: true,
+backend-1   | 2026-04-18T05:48:59.217987564Z     heartbeatFrequencyMS: 10000,
+backend-1   | 2026-04-18T05:48:59.217988319Z     localThresholdMS: 15,
+backend-1   | 2026-04-18T05:48:59.217989044Z     setName: null,
+backend-1   | 2026-04-18T05:48:59.217989781Z     maxElectionId: null,
+backend-1   | 2026-04-18T05:48:59.217990505Z     maxSetVersion: null,
+backend-1   | 2026-04-18T05:48:59.217991487Z     commonWireVersion: 0,
+backend-1   | 2026-04-18T05:48:59.217992226Z     logicalSessionTimeoutMinutes: null
+backend-1   | 2026-04-18T05:48:59.217995382Z   },
+backend-1   | 2026-04-18T05:48:59.217996186Z   code: undefined,
+backend-1   | 2026-04-18T05:48:59.217996925Z   [cause]: MongoNetworkError: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:59.217997741Z       at Socket.<anonymous> (/app/node_modules/mongodb/lib/cmap/connect.js:286:44)
+backend-1   | 2026-04-18T05:48:59.217998585Z       at Object.onceWrapper (node:events:632:26)
+backend-1   | 2026-04-18T05:48:59.217999349Z       at Socket.emit (node:events:517:28)
+backend-1   | 2026-04-18T05:48:59.218000125Z       at emitErrorNT (node:internal/streams/destroy:151:8)
+backend-1   | 2026-04-18T05:48:59.218000891Z       at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+backend-1   | 2026-04-18T05:48:59.218001668Z       at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+backend-1   | 2026-04-18T05:48:59.218002464Z     errorLabelSet: Set(1) { 'ResetPool' },
+backend-1   | 2026-04-18T05:48:59.218003224Z     beforeHandshake: false,
+backend-1   | 2026-04-18T05:48:59.218003954Z     [cause]: Error: getaddrinfo EAI_AGAIN mongodb
+backend-1   | 2026-04-18T05:48:59.218004740Z         at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+backend-1   | 2026-04-18T05:48:59.218005689Z       errno: -3001,
+backend-1   | 2026-04-18T05:48:59.218006441Z       code: 'EAI_AGAIN',
+backend-1   | 2026-04-18T05:48:59.218007191Z       syscall: 'getaddrinfo',
+backend-1   | 2026-04-18T05:48:59.218007963Z       hostname: 'mongodb'
+backend-1   | 2026-04-18T05:48:59.218008731Z     }
+backend-1   | 2026-04-18T05:48:59.218009441Z   }
+backend-1   | 2026-04-18T05:48:59.218010156Z }

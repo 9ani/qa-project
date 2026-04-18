@@ -1,0 +1,324 @@
+{
+  "scenario": "mongodb-restart",
+  "generatedAt": "2026-04-18T05:49:29.225Z",
+  "faultStart": "2026-04-18T05:48:13.109Z",
+  "faultEnd": "2026-04-18T05:48:58.109Z",
+  "availabilityPercent": 60.13,
+  "recoveryRequired": true,
+  "mttrMs": 6412,
+  "errorPropagation": [
+    "Backend /health/db",
+    "GET /api/products",
+    "GET /api/search?q=laptop",
+    "POST /api/auth/login",
+    "POST /api/orders/track"
+  ],
+  "endpointSummary": [
+    {
+      "endpoint": "frontend-home",
+      "label": "Frontend /",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 1,
+      "faultAverageLatencyMs": 1.13,
+      "recoveryAverageLatencyMs": 0.53,
+      "latencyDeltaMs": 0.13,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    },
+    {
+      "endpoint": "backend-health",
+      "label": "Backend /health",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 1.2,
+      "faultAverageLatencyMs": 1.22,
+      "recoveryAverageLatencyMs": 52.33,
+      "latencyDeltaMs": 0.02,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    },
+    {
+      "endpoint": "backend-db",
+      "label": "Backend /health/db",
+      "availabilityPercent": 46.51,
+      "baselineAverageLatencyMs": 1.2,
+      "faultAverageLatencyMs": 1.26,
+      "recoveryAverageLatencyMs": 52.67,
+      "latencyDeltaMs": 0.06,
+      "failuresDuringFault": 22,
+      "recoveredAt": "2026-04-18T05:49:01.504Z",
+      "mttrMs": 3395
+    },
+    {
+      "endpoint": "products",
+      "label": "GET /api/products",
+      "availabilityPercent": 44.19,
+      "baselineAverageLatencyMs": 4.2,
+      "faultAverageLatencyMs": 1435.35,
+      "recoveryAverageLatencyMs": 269.2,
+      "latencyDeltaMs": 1431.15,
+      "failuresDuringFault": 22,
+      "recoveredAt": "2026-04-18T05:49:04.203Z",
+      "mttrMs": 6094
+    },
+    {
+      "endpoint": "search",
+      "label": "GET /api/search?q=laptop",
+      "availabilityPercent": 44.19,
+      "baselineAverageLatencyMs": 5,
+      "faultAverageLatencyMs": 1435.48,
+      "recoveryAverageLatencyMs": 269.67,
+      "latencyDeltaMs": 1430.48,
+      "failuresDuringFault": 22,
+      "recoveredAt": "2026-04-18T05:49:04.203Z",
+      "mttrMs": 6094
+    },
+    {
+      "endpoint": "auth-login",
+      "label": "POST /api/auth/login",
+      "availabilityPercent": 44.19,
+      "baselineAverageLatencyMs": 193,
+      "faultAverageLatencyMs": 1443.83,
+      "recoveryAverageLatencyMs": 435.6,
+      "latencyDeltaMs": 1250.83,
+      "failuresDuringFault": 22,
+      "recoveredAt": "2026-04-18T05:49:04.521Z",
+      "mttrMs": 6412
+    },
+    {
+      "endpoint": "order-track",
+      "label": "POST /api/orders/track",
+      "availabilityPercent": 41.86,
+      "baselineAverageLatencyMs": 192.8,
+      "faultAverageLatencyMs": 1500.65,
+      "recoveryAverageLatencyMs": 441.13,
+      "latencyDeltaMs": 1307.85,
+      "failuresDuringFault": 23,
+      "recoveredAt": "2026-04-18T05:49:04.509Z",
+      "mttrMs": 6400
+    }
+  ],
+  "roundSummary": [
+    {
+      "round": 1,
+      "averageLatencyMs": 58.14,
+      "phase": "baseline"
+    },
+    {
+      "round": 2,
+      "averageLatencyMs": 57.43,
+      "phase": "baseline"
+    },
+    {
+      "round": 3,
+      "averageLatencyMs": 55.43,
+      "phase": "baseline"
+    },
+    {
+      "round": 4,
+      "averageLatencyMs": 57.71,
+      "phase": "baseline"
+    },
+    {
+      "round": 5,
+      "averageLatencyMs": 55.86,
+      "phase": "baseline"
+    },
+    {
+      "round": 6,
+      "averageLatencyMs": 243.86,
+      "phase": "fault"
+    },
+    {
+      "round": 7,
+      "averageLatencyMs": 858.29,
+      "phase": "fault"
+    },
+    {
+      "round": 8,
+      "averageLatencyMs": 857.57,
+      "phase": "fault"
+    },
+    {
+      "round": 9,
+      "averageLatencyMs": 858,
+      "phase": "fault"
+    },
+    {
+      "round": 10,
+      "averageLatencyMs": 858.14,
+      "phase": "fault"
+    },
+    {
+      "round": 11,
+      "averageLatencyMs": 858.43,
+      "phase": "fault"
+    },
+    {
+      "round": 12,
+      "averageLatencyMs": 857.57,
+      "phase": "fault"
+    },
+    {
+      "round": 13,
+      "averageLatencyMs": 857.57,
+      "phase": "fault"
+    },
+    {
+      "round": 14,
+      "averageLatencyMs": 857.86,
+      "phase": "fault"
+    },
+    {
+      "round": 15,
+      "averageLatencyMs": 858.14,
+      "phase": "fault"
+    },
+    {
+      "round": 16,
+      "averageLatencyMs": 858.14,
+      "phase": "fault"
+    },
+    {
+      "round": 17,
+      "averageLatencyMs": 857.71,
+      "phase": "fault"
+    },
+    {
+      "round": 18,
+      "averageLatencyMs": 857.86,
+      "phase": "fault"
+    },
+    {
+      "round": 19,
+      "averageLatencyMs": 858.14,
+      "phase": "fault"
+    },
+    {
+      "round": 20,
+      "averageLatencyMs": 858.71,
+      "phase": "fault"
+    },
+    {
+      "round": 21,
+      "averageLatencyMs": 857.71,
+      "phase": "fault"
+    },
+    {
+      "round": 22,
+      "averageLatencyMs": 858.14,
+      "phase": "fault"
+    },
+    {
+      "round": 23,
+      "averageLatencyMs": 858.14,
+      "phase": "fault"
+    },
+    {
+      "round": 24,
+      "averageLatencyMs": 857.86,
+      "phase": "fault"
+    },
+    {
+      "round": 25,
+      "averageLatencyMs": 858.14,
+      "phase": "fault"
+    },
+    {
+      "round": 26,
+      "averageLatencyMs": 858.29,
+      "phase": "fault"
+    },
+    {
+      "round": 27,
+      "averageLatencyMs": 857.43,
+      "phase": "fault"
+    },
+    {
+      "round": 28,
+      "averageLatencyMs": 857.57,
+      "phase": "fault"
+    },
+    {
+      "round": 29,
+      "averageLatencyMs": 857.43,
+      "phase": "recovery"
+    },
+    {
+      "round": 30,
+      "averageLatencyMs": 940.43,
+      "phase": "recovery"
+    },
+    {
+      "round": 31,
+      "averageLatencyMs": 792.71,
+      "phase": "recovery"
+    },
+    {
+      "round": 32,
+      "averageLatencyMs": 69.57,
+      "phase": "recovery"
+    },
+    {
+      "round": 33,
+      "averageLatencyMs": 56.71,
+      "phase": "recovery"
+    },
+    {
+      "round": 34,
+      "averageLatencyMs": 55.43,
+      "phase": "recovery"
+    },
+    {
+      "round": 35,
+      "averageLatencyMs": 54.86,
+      "phase": "recovery"
+    },
+    {
+      "round": 36,
+      "averageLatencyMs": 54.29,
+      "phase": "recovery"
+    },
+    {
+      "round": 37,
+      "averageLatencyMs": 54.43,
+      "phase": "recovery"
+    },
+    {
+      "round": 38,
+      "averageLatencyMs": 54.29,
+      "phase": "recovery"
+    },
+    {
+      "round": 39,
+      "averageLatencyMs": 53.71,
+      "phase": "recovery"
+    },
+    {
+      "round": 40,
+      "averageLatencyMs": 53.71,
+      "phase": "recovery"
+    },
+    {
+      "round": 41,
+      "averageLatencyMs": 54.29,
+      "phase": "recovery"
+    },
+    {
+      "round": 42,
+      "averageLatencyMs": 53.29,
+      "phase": "recovery"
+    },
+    {
+      "round": 43,
+      "averageLatencyMs": 54.43,
+      "phase": "recovery"
+    }
+  ],
+  "charts": {
+    "availabilityFile": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/chaos/charts/mongodb-restart-availability.svg",
+    "latencyDeltaFile": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/chaos/charts/mongodb-restart-latency-delta.svg",
+    "latencyTrendFile": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/chaos/charts/mongodb-restart-latency-trend.svg"
+  }
+}

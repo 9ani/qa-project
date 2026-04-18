@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="40" y="36" font-size="22" font-family="Arial, sans-serif" fill="#111827">auth-spike backend block I/O</text>
+  <line x1="80" y1="320" x2="920" y2="320" stroke="#9ca3af" stroke-width="1.5" />
+  <line x1="80" y1="320" x2="80" y2="80" stroke="#9ca3af" stroke-width="1.5" />
+  <polyline fill="none" stroke="#7c3aed" stroke-width="3" points="80,314.48 200,314.48 320,314.48 440,314.48 560,314.48 680,314.48 800,314.48 920,314.48" />
+  <text x="80" y="340" text-anchor="middle" font-size="11" fill="#1f2937">0s</text>
+<text x="200" y="340" text-anchor="middle" font-size="11" fill="#1f2937">5s</text>
+<text x="320" y="340" text-anchor="middle" font-size="11" fill="#1f2937">10s</text>
+<text x="440" y="340" text-anchor="middle" font-size="11" fill="#1f2937">15s</text>
+<text x="560" y="340" text-anchor="middle" font-size="11" fill="#1f2937">20s</text>
+<text x="680" y="340" text-anchor="middle" font-size="11" fill="#1f2937">25s</text>
+<text x="800" y="340" text-anchor="middle" font-size="11" fill="#1f2937">30s</text>
+<text x="920" y="340" text-anchor="middle" font-size="11" fill="#1f2937">35s</text>
+  <text x="920" y="304.48" text-anchor="end" font-size="12" fill="#111827">0.023 MiB</text>
+</svg>

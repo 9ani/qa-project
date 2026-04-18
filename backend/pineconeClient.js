@@ -98,6 +98,7 @@ const purgeNamespace = async (namespace = defaultNamespace) => {
 
 module.exports = {
   upsertVectors,
+  describeIndexStats,
   fetchVectors,
   queryById,
   queryByVector,

@@ -1,0 +1,503 @@
+{
+  "scenario": "cpu-throttle",
+  "generatedAt": "2026-04-18T05:52:09.408Z",
+  "faultStart": "2026-04-18T05:49:39.285Z",
+  "faultEnd": "2026-04-18T05:51:39.285Z",
+  "availabilityPercent": 100,
+  "recoveryRequired": false,
+  "mttrMs": null,
+  "errorPropagation": [],
+  "endpointSummary": [
+    {
+      "endpoint": "frontend-home",
+      "label": "Frontend /",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 0.8,
+      "faultAverageLatencyMs": 0.68,
+      "recoveryAverageLatencyMs": 0.47,
+      "latencyDeltaMs": -0.12,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    },
+    {
+      "endpoint": "backend-health",
+      "label": "Backend /health",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 1.2,
+      "faultAverageLatencyMs": 15.4,
+      "recoveryAverageLatencyMs": 1.8,
+      "latencyDeltaMs": 14.2,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    },
+    {
+      "endpoint": "backend-db",
+      "label": "Backend /health/db",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 1.2,
+      "faultAverageLatencyMs": 15.52,
+      "recoveryAverageLatencyMs": 1.73,
+      "latencyDeltaMs": 14.32,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    },
+    {
+      "endpoint": "products",
+      "label": "GET /api/products",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 29,
+      "faultAverageLatencyMs": 183.08,
+      "recoveryAverageLatencyMs": 17.2,
+      "latencyDeltaMs": 154.08,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    },
+    {
+      "endpoint": "search",
+      "label": "GET /api/search?q=laptop",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 4.2,
+      "faultAverageLatencyMs": 126.72,
+      "recoveryAverageLatencyMs": 17.6,
+      "latencyDeltaMs": 122.52,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    },
+    {
+      "endpoint": "auth-login",
+      "label": "POST /api/auth/login",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 132,
+      "faultAverageLatencyMs": 393.05,
+      "recoveryAverageLatencyMs": 220.07,
+      "latencyDeltaMs": 261.05,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    },
+    {
+      "endpoint": "order-track",
+      "label": "POST /api/orders/track",
+      "availabilityPercent": 100,
+      "baselineAverageLatencyMs": 131.6,
+      "faultAverageLatencyMs": 318.13,
+      "recoveryAverageLatencyMs": 207.53,
+      "latencyDeltaMs": 186.53,
+      "failuresDuringFault": 0,
+      "recoveredAt": null,
+      "mttrMs": null
+    }
+  ],
+  "roundSummary": [
+    {
+      "round": 1,
+      "averageLatencyMs": 39.86,
+      "phase": "baseline"
+    },
+    {
+      "round": 2,
+      "averageLatencyMs": 55.86,
+      "phase": "baseline"
+    },
+    {
+      "round": 3,
+      "averageLatencyMs": 38.86,
+      "phase": "baseline"
+    },
+    {
+      "round": 4,
+      "averageLatencyMs": 40.29,
+      "phase": "baseline"
+    },
+    {
+      "round": 5,
+      "averageLatencyMs": 39.43,
+      "phase": "baseline"
+    },
+    {
+      "round": 6,
+      "averageLatencyMs": 35.86,
+      "phase": "fault"
+    },
+    {
+      "round": 7,
+      "averageLatencyMs": 142.71,
+      "phase": "fault"
+    },
+    {
+      "round": 8,
+      "averageLatencyMs": 141.71,
+      "phase": "fault"
+    },
+    {
+      "round": 9,
+      "averageLatencyMs": 218.86,
+      "phase": "fault"
+    },
+    {
+      "round": 10,
+      "averageLatencyMs": 177.86,
+      "phase": "fault"
+    },
+    {
+      "round": 11,
+      "averageLatencyMs": 139.29,
+      "phase": "fault"
+    },
+    {
+      "round": 12,
+      "averageLatencyMs": 123.43,
+      "phase": "fault"
+    },
+    {
+      "round": 13,
+      "averageLatencyMs": 178.71,
+      "phase": "fault"
+    },
+    {
+      "round": 14,
+      "averageLatencyMs": 166.29,
+      "phase": "fault"
+    },
+    {
+      "round": 15,
+      "averageLatencyMs": 165.57,
+      "phase": "fault"
+    },
+    {
+      "round": 16,
+      "averageLatencyMs": 152.86,
+      "phase": "fault"
+    },
+    {
+      "round": 17,
+      "averageLatencyMs": 164.57,
+      "phase": "fault"
+    },
+    {
+      "round": 18,
+      "averageLatencyMs": 111,
+      "phase": "fault"
+    },
+    {
+      "round": 19,
+      "averageLatencyMs": 167.57,
+      "phase": "fault"
+    },
+    {
+      "round": 20,
+      "averageLatencyMs": 151.71,
+      "phase": "fault"
+    },
+    {
+      "round": 21,
+      "averageLatencyMs": 122.29,
+      "phase": "fault"
+    },
+    {
+      "round": 22,
+      "averageLatencyMs": 177.57,
+      "phase": "fault"
+    },
+    {
+      "round": 23,
+      "averageLatencyMs": 150.71,
+      "phase": "fault"
+    },
+    {
+      "round": 24,
+      "averageLatencyMs": 179,
+      "phase": "fault"
+    },
+    {
+      "round": 25,
+      "averageLatencyMs": 126.14,
+      "phase": "fault"
+    },
+    {
+      "round": 26,
+      "averageLatencyMs": 125.57,
+      "phase": "fault"
+    },
+    {
+      "round": 27,
+      "averageLatencyMs": 165.29,
+      "phase": "fault"
+    },
+    {
+      "round": 28,
+      "averageLatencyMs": 138.71,
+      "phase": "fault"
+    },
+    {
+      "round": 29,
+      "averageLatencyMs": 150.71,
+      "phase": "fault"
+    },
+    {
+      "round": 30,
+      "averageLatencyMs": 166.57,
+      "phase": "fault"
+    },
+    {
+      "round": 31,
+      "averageLatencyMs": 151.57,
+      "phase": "fault"
+    },
+    {
+      "round": 32,
+      "averageLatencyMs": 164.43,
+      "phase": "fault"
+    },
+    {
+      "round": 33,
+      "averageLatencyMs": 163,
+      "phase": "fault"
+    },
+    {
+      "round": 34,
+      "averageLatencyMs": 138.86,
+      "phase": "fault"
+    },
+    {
+      "round": 35,
+      "averageLatencyMs": 163.43,
+      "phase": "fault"
+    },
+    {
+      "round": 36,
+      "averageLatencyMs": 139,
+      "phase": "fault"
+    },
+    {
+      "round": 37,
+      "averageLatencyMs": 123.71,
+      "phase": "fault"
+    },
+    {
+      "round": 38,
+      "averageLatencyMs": 124.86,
+      "phase": "fault"
+    },
+    {
+      "round": 39,
+      "averageLatencyMs": 208.86,
+      "phase": "fault"
+    },
+    {
+      "round": 40,
+      "averageLatencyMs": 140.86,
+      "phase": "fault"
+    },
+    {
+      "round": 41,
+      "averageLatencyMs": 139,
+      "phase": "fault"
+    },
+    {
+      "round": 42,
+      "averageLatencyMs": 140.86,
+      "phase": "fault"
+    },
+    {
+      "round": 43,
+      "averageLatencyMs": 140,
+      "phase": "fault"
+    },
+    {
+      "round": 44,
+      "averageLatencyMs": 165,
+      "phase": "fault"
+    },
+    {
+      "round": 45,
+      "averageLatencyMs": 138.29,
+      "phase": "fault"
+    },
+    {
+      "round": 46,
+      "averageLatencyMs": 164.29,
+      "phase": "fault"
+    },
+    {
+      "round": 47,
+      "averageLatencyMs": 150.71,
+      "phase": "fault"
+    },
+    {
+      "round": 48,
+      "averageLatencyMs": 134.71,
+      "phase": "fault"
+    },
+    {
+      "round": 49,
+      "averageLatencyMs": 138.71,
+      "phase": "fault"
+    },
+    {
+      "round": 50,
+      "averageLatencyMs": 164.86,
+      "phase": "fault"
+    },
+    {
+      "round": 51,
+      "averageLatencyMs": 138.43,
+      "phase": "fault"
+    },
+    {
+      "round": 52,
+      "averageLatencyMs": 138.29,
+      "phase": "fault"
+    },
+    {
+      "round": 53,
+      "averageLatencyMs": 152.57,
+      "phase": "fault"
+    },
+    {
+      "round": 54,
+      "averageLatencyMs": 138,
+      "phase": "fault"
+    },
+    {
+      "round": 55,
+      "averageLatencyMs": 163,
+      "phase": "fault"
+    },
+    {
+      "round": 56,
+      "averageLatencyMs": 153.14,
+      "phase": "fault"
+    },
+    {
+      "round": 57,
+      "averageLatencyMs": 152.14,
+      "phase": "fault"
+    },
+    {
+      "round": 58,
+      "averageLatencyMs": 164,
+      "phase": "fault"
+    },
+    {
+      "round": 59,
+      "averageLatencyMs": 153,
+      "phase": "fault"
+    },
+    {
+      "round": 60,
+      "averageLatencyMs": 165.57,
+      "phase": "fault"
+    },
+    {
+      "round": 61,
+      "averageLatencyMs": 165.57,
+      "phase": "fault"
+    },
+    {
+      "round": 62,
+      "averageLatencyMs": 145.43,
+      "phase": "fault"
+    },
+    {
+      "round": 63,
+      "averageLatencyMs": 149.57,
+      "phase": "fault"
+    },
+    {
+      "round": 64,
+      "averageLatencyMs": 131.86,
+      "phase": "fault"
+    },
+    {
+      "round": 65,
+      "averageLatencyMs": 176,
+      "phase": "fault"
+    },
+    {
+      "round": 66,
+      "averageLatencyMs": 135.14,
+      "phase": "recovery"
+    },
+    {
+      "round": 67,
+      "averageLatencyMs": 59.71,
+      "phase": "recovery"
+    },
+    {
+      "round": 68,
+      "averageLatencyMs": 60,
+      "phase": "recovery"
+    },
+    {
+      "round": 69,
+      "averageLatencyMs": 101.14,
+      "phase": "recovery"
+    },
+    {
+      "round": 70,
+      "averageLatencyMs": 59.71,
+      "phase": "recovery"
+    },
+    {
+      "round": 71,
+      "averageLatencyMs": 58.29,
+      "phase": "recovery"
+    },
+    {
+      "round": 72,
+      "averageLatencyMs": 60,
+      "phase": "recovery"
+    },
+    {
+      "round": 73,
+      "averageLatencyMs": 58.43,
+      "phase": "recovery"
+    },
+    {
+      "round": 74,
+      "averageLatencyMs": 57.43,
+      "phase": "recovery"
+    },
+    {
+      "round": 75,
+      "averageLatencyMs": 57.86,
+      "phase": "recovery"
+    },
+    {
+      "round": 76,
+      "averageLatencyMs": 61.14,
+      "phase": "recovery"
+    },
+    {
+      "round": 77,
+      "averageLatencyMs": 57.43,
+      "phase": "recovery"
+    },
+    {
+      "round": 78,
+      "averageLatencyMs": 57,
+      "phase": "recovery"
+    },
+    {
+      "round": 79,
+      "averageLatencyMs": 56.86,
+      "phase": "recovery"
+    },
+    {
+      "round": 80,
+      "averageLatencyMs": 59.29,
+      "phase": "recovery"
+    }
+  ],
+  "charts": {
+    "availabilityFile": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/chaos/charts/cpu-throttle-availability.svg",
+    "latencyDeltaFile": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/chaos/charts/cpu-throttle-latency-delta.svg",
+    "latencyTrendFile": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/chaos/charts/cpu-throttle-latency-trend.svg"
+  }
+}

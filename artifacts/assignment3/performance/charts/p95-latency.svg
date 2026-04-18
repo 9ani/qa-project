@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="40" y="36" font-size="22" font-family="Arial, sans-serif" fill="#111827">Performance: estimated p95 latency</text>
+  <line x1="80" y1="320" x2="920" y2="320" stroke="#9ca3af" stroke-width="1.5" />
+  <line x1="80" y1="320" x2="80" y2="60" stroke="#9ca3af" stroke-width="1.5" />
+  
+        <rect x="80" y="318.89128348660535" width="40.5" height="1.108716513394642" fill="#2563eb" rx="6" />
+        <text x="100.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products-normal</text>
+        <text x="100.25" y="310.89128348660535" text-anchor="middle" font-size="11" fill="#111827">21.33ms</text>
+      
+
+        <rect x="132.5" y="317.2451019592163" width="40.5" height="2.7548980407836865" fill="#2563eb" rx="6" />
+        <text x="152.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products-peak</text>
+        <text x="152.75" y="309.2451019592163" text-anchor="middle" font-size="11" fill="#111827">53ms</text>
+      
+
+        <rect x="185" y="247.6969212315074" width="40.5" height="72.30307876849261" fill="#2563eb" rx="6" />
+        <text x="205.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products-spike</text>
+        <text x="205.25" y="239.6969212315074" text-anchor="middle" font-size="11" fill="#111827">1391ms</text>
+      
+
+        <rect x="237.5" y="318.92558976409435" width="40.5" height="1.074410235905638" fill="#2563eb" rx="6" />
+        <text x="257.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products-endurance</text>
+        <text x="257.75" y="310.92558976409435" text-anchor="middle" font-size="11" fill="#111827">20.67ms</text>
+      
+
+        <rect x="290" y="319.49736105557776" width="40.5" height="0.5026389444222311" fill="#2563eb" rx="6" />
+        <text x="310.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search-normal</text>
+        <text x="310.25" y="311.49736105557776" text-anchor="middle" font-size="11" fill="#111827">9.67ms</text>
+      
+
+        <rect x="342.5" y="318.75249900039984" width="40.5" height="1.24750099960016" fill="#2563eb" rx="6" />
+        <text x="362.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search-peak</text>
+        <text x="362.75" y="310.75249900039984" text-anchor="middle" font-size="11" fill="#111827">24ms</text>
+      
+
+        <rect x="395" y="317.0720111955218" width="40.5" height="2.9279888044782085" fill="#2563eb" rx="6" />
+        <text x="415.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search-spike</text>
+        <text x="415.25" y="309.0720111955218" text-anchor="middle" font-size="11" fill="#111827">56.33ms</text>
+      
+
+        <rect x="447.5" y="319.49736105557776" width="40.5" height="0.5026389444222311" fill="#2563eb" rx="6" />
+        <text x="467.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search-endurance</text>
+        <text x="467.75" y="311.49736105557776" text-anchor="middle" font-size="11" fill="#111827">9.67ms</text>
+      
+
+        <rect x="500" y="190.90079968012793" width="40.5" height="129.09920031987207" fill="#2563eb" rx="6" />
+        <text x="520.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-normal</text>
+        <text x="520.25" y="182.90079968012793" text-anchor="middle" font-size="11" fill="#111827">2483.67ms</text>
+      
+
+        <rect x="552.5" y="175.2030787684926" width="40.5" height="144.7969212315074" fill="#2563eb" rx="6" />
+        <text x="572.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-peak</text>
+        <text x="572.75" y="167.2030787684926" text-anchor="middle" font-size="11" fill="#111827">2785.67ms</text>
+      
+
+        <rect x="605" y="60" width="40.5" height="260" fill="#2563eb" rx="6" />
+        <text x="625.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-spike</text>
+        <text x="625.25" y="52" text-anchor="middle" font-size="11" fill="#111827">5002ms</text>
+      
+
+        <rect x="657.5" y="189.94802079168332" width="40.5" height="130.05197920831668" fill="#2563eb" rx="6" />
+        <text x="677.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-endurance</text>
+        <text x="677.75" y="181.94802079168332" text-anchor="middle" font-size="11" fill="#111827">2502ms</text>
+      
+
+        <rect x="710" y="185.94562175129948" width="40.5" height="134.05437824870052" fill="#2563eb" rx="6" />
+        <text x="730.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">checkout-normal</text>
+        <text x="730.25" y="177.94562175129948" text-anchor="middle" font-size="11" fill="#111827">2579ms</text>
+      
+
+        <rect x="762.5" y="187.57413034786086" width="40.5" height="132.42586965213914" fill="#2563eb" rx="6" />
+        <text x="782.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">checkout-peak</text>
+        <text x="782.75" y="179.57413034786086" text-anchor="middle" font-size="11" fill="#111827">2547.67ms</text>
+      
+
+        <rect x="815" y="164.58216713314675" width="40.5" height="155.41783286685325" fill="#2563eb" rx="6" />
+        <text x="835.25" y="338" text-anchor="middle" font-size="11" fill="#1f2937">checkout-spike</text>
+        <text x="835.25" y="156.58216713314675" text-anchor="middle" font-size="11" fill="#111827">2990ms</text>
+      
+
+        <rect x="867.5" y="185.85881647341066" width="40.5" height="134.14118352658934" fill="#2563eb" rx="6" />
+        <text x="887.75" y="338" text-anchor="middle" font-size="11" fill="#1f2937">checkout-endurance</text>
+        <text x="887.75" y="177.85881647341066" text-anchor="middle" font-size="11" fill="#111827">2580.67ms</text>
+      
+</svg>

@@ -1,0 +1,579 @@
+{
+  "generatedAt": "2026-04-18T05:28:54.755Z",
+  "warmupSeconds": 15,
+  "summaries": [
+    {
+      "endpoint": "products",
+      "endpointLabel": "Product discovery",
+      "scenario": "normal",
+      "connections": 10,
+      "durationSeconds": 60,
+      "latencyAverageMs": 24.67,
+      "latencyMedianMs": 15,
+      "latencyP95Ms": 21.33,
+      "latencyP99Ms": 27,
+      "throughputRps": 648.43,
+      "requestCount": 24650,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 13.83,
+      "peakCpuPercent": 0.71,
+      "peakMemoryBytes": 166828442,
+      "peakBlockIoBytes": 20500,
+      "thresholds": {
+        "latencyP95Ms": 500,
+        "errorRatePercent": 0
+      },
+      "thresholdStatus": "pass",
+      "rawResultPath": "raw/products-normal.json",
+      "statsPath": "stats/products-normal.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-normal-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-normal-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-normal-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "products",
+      "endpointLabel": "Product discovery",
+      "scenario": "peak",
+      "connections": 25,
+      "durationSeconds": 60,
+      "latencyAverageMs": 60.15,
+      "latencyMedianMs": 37,
+      "latencyP95Ms": 53,
+      "latencyP99Ms": 2024,
+      "throughputRps": 672.77,
+      "requestCount": 25590,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": -22.38,
+      "peakCpuPercent": 2.81,
+      "peakMemoryBytes": 200173158,
+      "peakBlockIoBytes": 20500,
+      "thresholds": {
+        "latencyP95Ms": 900,
+        "errorRatePercent": 1
+      },
+      "thresholdStatus": "pass",
+      "rawResultPath": "raw/products-peak.json",
+      "statsPath": "stats/products-peak.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-peak-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-peak-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-peak-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "products",
+      "endpointLabel": "Product discovery",
+      "scenario": "spike",
+      "connections": 60,
+      "durationSeconds": 30,
+      "latencyAverageMs": 141.53,
+      "latencyMedianMs": 90,
+      "latencyP95Ms": 1391,
+      "latencyP99Ms": 2075,
+      "throughputRps": 676.3,
+      "requestCount": 13586,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 0.52,
+      "peakCpuPercent": 0.19,
+      "peakMemoryBytes": 200802304,
+      "peakBlockIoBytes": 20500,
+      "thresholds": null,
+      "thresholdStatus": "n/a",
+      "rawResultPath": "raw/products-spike.json",
+      "statsPath": "stats/products-spike.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-spike-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-spike-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-spike-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "products",
+      "endpointLabel": "Product discovery",
+      "scenario": "endurance",
+      "connections": 10,
+      "durationSeconds": 300,
+      "latencyAverageMs": 25.05,
+      "latencyMedianMs": 15,
+      "latencyP95Ms": 20.67,
+      "latencyP99Ms": 27,
+      "throughputRps": 649.53,
+      "requestCount": 118223,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": -9.09,
+      "peakCpuPercent": 0.86,
+      "peakMemoryBytes": 164416717,
+      "peakBlockIoBytes": 20500,
+      "thresholds": null,
+      "thresholdStatus": "n/a",
+      "rawResultPath": "raw/products-endurance.json",
+      "statsPath": "stats/products-endurance.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-endurance-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-endurance-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-endurance-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "search",
+      "endpointLabel": "Search",
+      "scenario": "normal",
+      "connections": 10,
+      "durationSeconds": 60,
+      "latencyAverageMs": 11.42,
+      "latencyMedianMs": 7,
+      "latencyP95Ms": 9.67,
+      "latencyP99Ms": 12,
+      "throughputRps": 1368.72,
+      "requestCount": 52021,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 22.67,
+      "peakCpuPercent": 0,
+      "peakMemoryBytes": 173539328,
+      "peakBlockIoBytes": 20500,
+      "thresholds": {
+        "latencyP95Ms": 500,
+        "errorRatePercent": 0
+      },
+      "thresholdStatus": "pass",
+      "rawResultPath": "raw/search-normal.json",
+      "statsPath": "stats/search-normal.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-normal-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-normal-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-normal-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "search",
+      "endpointLabel": "Search",
+      "scenario": "peak",
+      "connections": 25,
+      "durationSeconds": 60,
+      "latencyAverageMs": 27.57,
+      "latencyMedianMs": 17,
+      "latencyP95Ms": 24,
+      "latencyP99Ms": 28,
+      "throughputRps": 1453.79,
+      "requestCount": 55269,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": -35,
+      "peakCpuPercent": 0.11,
+      "peakMemoryBytes": 179516211,
+      "peakBlockIoBytes": 20500,
+      "thresholds": {
+        "latencyP95Ms": 900,
+        "errorRatePercent": 1
+      },
+      "thresholdStatus": "pass",
+      "rawResultPath": "raw/search-peak.json",
+      "statsPath": "stats/search-peak.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-peak-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-peak-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-peak-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "search",
+      "endpointLabel": "Search",
+      "scenario": "spike",
+      "connections": 60,
+      "durationSeconds": 30,
+      "latencyAverageMs": 63.12,
+      "latencyMedianMs": 39,
+      "latencyP95Ms": 56.33,
+      "latencyP99Ms": 2025,
+      "throughputRps": 1509.5,
+      "requestCount": 30250,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 5.97,
+      "peakCpuPercent": 0.08,
+      "peakMemoryBytes": 193462272,
+      "peakBlockIoBytes": 20500,
+      "thresholds": null,
+      "thresholdStatus": "n/a",
+      "rawResultPath": "raw/search-spike.json",
+      "statsPath": "stats/search-spike.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-spike-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-spike-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-spike-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "search",
+      "endpointLabel": "Search",
+      "scenario": "endurance",
+      "connections": 10,
+      "durationSeconds": 300,
+      "latencyAverageMs": 11.59,
+      "latencyMedianMs": 7,
+      "latencyP95Ms": 9.67,
+      "latencyP99Ms": 12,
+      "throughputRps": 1371.82,
+      "requestCount": 249680,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 48.53,
+      "peakCpuPercent": 0.03,
+      "peakMemoryBytes": 181927936,
+      "peakBlockIoBytes": 20500,
+      "thresholds": null,
+      "thresholdStatus": "n/a",
+      "rawResultPath": "raw/search-endurance.json",
+      "statsPath": "stats/search-endurance.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-endurance-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-endurance-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-endurance-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "auth",
+      "endpointLabel": "Authentication",
+      "scenario": "normal",
+      "connections": 10,
+      "durationSeconds": 60,
+      "latencyAverageMs": 870.58,
+      "latencyMedianMs": 511,
+      "latencyP95Ms": 2483.67,
+      "latencyP99Ms": 2897,
+      "throughputRps": 18.74,
+      "requestCount": 722,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 61.72,
+      "peakCpuPercent": 18.5,
+      "peakMemoryBytes": 92484403,
+      "peakBlockIoBytes": 24600,
+      "thresholds": {
+        "latencyP95Ms": 400,
+        "errorRatePercent": 0
+      },
+      "thresholdStatus": "fail",
+      "rawResultPath": "raw/auth-normal.json",
+      "statsPath": "stats/auth-normal.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-normal-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-normal-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-normal-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "auth",
+      "endpointLabel": "Authentication",
+      "scenario": "peak",
+      "connections": 25,
+      "durationSeconds": 60,
+      "latencyAverageMs": 1692.35,
+      "latencyMedianMs": 1370,
+      "latencyP95Ms": 2785.67,
+      "latencyP99Ms": 3033,
+      "throughputRps": 24.11,
+      "requestCount": 941,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 3.1,
+      "peakCpuPercent": 101.51,
+      "peakMemoryBytes": 95472845,
+      "peakBlockIoBytes": 24600,
+      "thresholds": {
+        "latencyP95Ms": 800,
+        "errorRatePercent": 1
+      },
+      "thresholdStatus": "fail",
+      "rawResultPath": "raw/auth-peak.json",
+      "statsPath": "stats/auth-peak.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-peak-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-peak-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-peak-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "auth",
+      "endpointLabel": "Authentication",
+      "scenario": "spike",
+      "connections": 60,
+      "durationSeconds": 30,
+      "latencyAverageMs": 4300.16,
+      "latencyMedianMs": 4998,
+      "latencyP95Ms": 5002,
+      "latencyP99Ms": 5002,
+      "throughputRps": 21.05,
+      "requestCount": 481,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 2.28,
+      "peakCpuPercent": 100.93,
+      "peakMemoryBytes": 96521421,
+      "peakBlockIoBytes": 24600,
+      "thresholds": null,
+      "thresholdStatus": "n/a",
+      "rawResultPath": "raw/auth-spike.json",
+      "statsPath": "stats/auth-spike.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-spike-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-spike-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-spike-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "auth",
+      "endpointLabel": "Authentication",
+      "scenario": "endurance",
+      "connections": 10,
+      "durationSeconds": 300,
+      "latencyAverageMs": 873.47,
+      "latencyMedianMs": 506,
+      "latencyP95Ms": 2502,
+      "latencyP99Ms": 2929,
+      "throughputRps": 18.99,
+      "requestCount": 3466,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 0.3,
+      "peakCpuPercent": 48.17,
+      "peakMemoryBytes": 97695826,
+      "peakBlockIoBytes": 24600,
+      "thresholds": null,
+      "thresholdStatus": "n/a",
+      "rawResultPath": "raw/auth-endurance.json",
+      "statsPath": "stats/auth-endurance.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-endurance-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-endurance-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-endurance-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "checkout",
+      "endpointLabel": "Checkout",
+      "scenario": "normal",
+      "connections": 10,
+      "durationSeconds": 60,
+      "latencyAverageMs": 1631.69,
+      "latencyMedianMs": 1213,
+      "latencyP95Ms": 2579,
+      "latencyP99Ms": 2582,
+      "throughputRps": 10,
+      "requestCount": 390,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": -0.73,
+      "peakCpuPercent": 0.21,
+      "peakMemoryBytes": 96699679,
+      "peakBlockIoBytes": 24600,
+      "thresholds": {
+        "latencyP95Ms": 1600,
+        "errorRatePercent": 2
+      },
+      "thresholdStatus": "fail",
+      "rawResultPath": "raw/checkout-normal.json",
+      "statsPath": "stats/checkout-normal.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-normal-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-normal-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-normal-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "checkout",
+      "endpointLabel": "Checkout",
+      "scenario": "peak",
+      "connections": 25,
+      "durationSeconds": 60,
+      "latencyAverageMs": 1631.71,
+      "latencyMedianMs": 1231,
+      "latencyP95Ms": 2547.67,
+      "latencyP99Ms": 2551,
+      "throughputRps": 25,
+      "requestCount": 975,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": -0.89,
+      "peakCpuPercent": 0.38,
+      "peakMemoryBytes": 98419343,
+      "peakBlockIoBytes": 24600,
+      "thresholds": {
+        "latencyP95Ms": 2200,
+        "errorRatePercent": 2
+      },
+      "thresholdStatus": "fail",
+      "rawResultPath": "raw/checkout-peak.json",
+      "statsPath": "stats/checkout-peak.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-peak-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-peak-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-peak-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "checkout",
+      "endpointLabel": "Checkout",
+      "scenario": "spike",
+      "connections": 60,
+      "durationSeconds": 30,
+      "latencyAverageMs": 1684.73,
+      "latencyMedianMs": 1261,
+      "latencyP95Ms": 2990,
+      "latencyP99Ms": 3237,
+      "throughputRps": 57,
+      "requestCount": 1200,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": 7.61,
+      "peakCpuPercent": 0.53,
+      "peakMemoryBytes": 104574484,
+      "peakBlockIoBytes": 24600,
+      "thresholds": null,
+      "thresholdStatus": "n/a",
+      "rawResultPath": "raw/checkout-spike.json",
+      "statsPath": "stats/checkout-spike.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-spike-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-spike-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-spike-backend-block-io.svg"
+      }
+    },
+    {
+      "endpoint": "checkout",
+      "endpointLabel": "Checkout",
+      "scenario": "endurance",
+      "connections": 10,
+      "durationSeconds": 300,
+      "latencyAverageMs": 1659.2,
+      "latencyMedianMs": 1212,
+      "latencyP95Ms": 2580.67,
+      "latencyP99Ms": 2583,
+      "throughputRps": 10,
+      "requestCount": 1830,
+      "errorCount": 0,
+      "errorRatePercent": 0,
+      "non2xx": 0,
+      "memoryGrowthPercent": -5.12,
+      "peakCpuPercent": 0.73,
+      "peakMemoryBytes": 101061755,
+      "peakBlockIoBytes": 24600,
+      "thresholds": {
+        "memoryGrowthPercent": 20,
+        "errorRatePercent": 2
+      },
+      "thresholdStatus": "pass",
+      "rawResultPath": "raw/checkout-endurance.json",
+      "statsPath": "stats/checkout-endurance.json",
+      "resourceCharts": {
+        "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-endurance-backend-cpu.svg",
+        "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-endurance-backend-memory.svg",
+        "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-endurance-backend-block-io.svg"
+      }
+    }
+  ],
+  "resourceCharts": {
+    "products-normal": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-normal-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-normal-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-normal-backend-block-io.svg"
+    },
+    "products-peak": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-peak-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-peak-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-peak-backend-block-io.svg"
+    },
+    "products-spike": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-spike-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-spike-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-spike-backend-block-io.svg"
+    },
+    "products-endurance": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-endurance-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-endurance-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/products-endurance-backend-block-io.svg"
+    },
+    "search-normal": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-normal-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-normal-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-normal-backend-block-io.svg"
+    },
+    "search-peak": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-peak-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-peak-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-peak-backend-block-io.svg"
+    },
+    "search-spike": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-spike-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-spike-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-spike-backend-block-io.svg"
+    },
+    "search-endurance": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-endurance-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-endurance-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/search-endurance-backend-block-io.svg"
+    },
+    "auth-normal": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-normal-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-normal-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-normal-backend-block-io.svg"
+    },
+    "auth-peak": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-peak-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-peak-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-peak-backend-block-io.svg"
+    },
+    "auth-spike": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-spike-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-spike-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-spike-backend-block-io.svg"
+    },
+    "auth-endurance": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-endurance-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-endurance-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/auth-endurance-backend-block-io.svg"
+    },
+    "checkout-normal": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-normal-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-normal-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-normal-backend-block-io.svg"
+    },
+    "checkout-peak": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-peak-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-peak-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-peak-backend-block-io.svg"
+    },
+    "checkout-spike": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-spike-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-spike-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-spike-backend-block-io.svg"
+    },
+    "checkout-endurance": {
+      "cpu": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-endurance-backend-cpu.svg",
+      "memory": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-endurance-backend-memory.svg",
+      "blockIo": "/home/shai/projects/unik/qa/MERN-Stack-Ecommerce-App/artifacts/assignment3/performance/charts/checkout-endurance-backend-block-io.svg"
+    }
+  }
+}

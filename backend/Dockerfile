@@ -26,6 +26,7 @@ ENV PORT=5000
 
 # Bring in hoisted node_modules (contains backend deps)
 COPY --from=deps /app/node_modules /app/node_modules
+COPY --from=deps /app/backend/node_modules /app/backend/node_modules
 
 # Copy backend sources
 COPY backend/ backend/

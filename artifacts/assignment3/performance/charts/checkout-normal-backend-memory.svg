@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="40" y="36" font-size="22" font-family="Arial, sans-serif" fill="#111827">checkout-normal backend memory usage</text>
+  <line x1="80" y1="320" x2="920" y2="320" stroke="#9ca3af" stroke-width="1.5" />
+  <line x1="80" y1="320" x2="80" y2="80" stroke="#9ca3af" stroke-width="1.5" />
+  <polyline fill="none" stroke="#1d4ed8" stroke-width="3" points="80,81.1711125569291 144.6153846153846,81.09303838646716 209.23076923076923,80.416395575797 273.8461538461538,80 338.46153846153845,80.39037085230973 403.0769230769231,83.20104098893952 467.6923076923077,82.23812621990893 532.3076923076923,82.52439817826937 596.9230769230769,82.13402732595966 661.5384615384615,81.69160702667537 726.1538461538462,82.16005204944699 790.7692307692307,82.05595315549772 855.3846153846154,83.64346128822385 920,82.91476903057907" />
+  <text x="80" y="340" text-anchor="middle" font-size="11" fill="#1f2937">0s</text>
+<text x="209.23076923076923" y="340" text-anchor="middle" font-size="11" fill="#1f2937">10s</text>
+<text x="338.46153846153845" y="340" text-anchor="middle" font-size="11" fill="#1f2937">20s</text>
+<text x="467.6923076923077" y="340" text-anchor="middle" font-size="11" fill="#1f2937">30s</text>
+<text x="596.9230769230769" y="340" text-anchor="middle" font-size="11" fill="#1f2937">40s</text>
+<text x="726.1538461538462" y="340" text-anchor="middle" font-size="11" fill="#1f2937">50s</text>
+<text x="855.3846153846154" y="340" text-anchor="middle" font-size="11" fill="#1f2937">60s</text>
+<text x="920" y="340" text-anchor="middle" font-size="11" fill="#1f2937">65s</text>
+  <text x="920" y="72.91476903057907" text-anchor="end" font-size="12" fill="#111827">91.1 MiB</text>
+</svg>

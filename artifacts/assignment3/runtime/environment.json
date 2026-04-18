@@ -1,0 +1,19 @@
+{
+  "capturedAt": "2026-04-18T04:52:57.310Z",
+  "os": {
+    "platform": "linux",
+    "release": "6.17.0-20-generic",
+    "arch": "x64",
+    "hostname": "shai",
+    "cpus": 16,
+    "totalMemoryBytes": 16410529792,
+    "freeMemoryBytes": 7997816832
+  },
+  "tools": {
+    "node": "v24.13.0",
+    "npm": "11.6.2",
+    "docker": "Docker version 29.4.0, build 9d7ad9f",
+    "dockerCompose": "Docker Compose version v5.0.2",
+    "gitCommit": "b032b85f3c0c4e3e11231269c4bf215c4b6d1d4d"
+  }
+}

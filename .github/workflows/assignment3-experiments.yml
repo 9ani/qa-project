@@ -1,0 +1,77 @@
+name: Assignment 3 Experimental Engineering
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_performance:
+        description: Run performance experiments
+        required: true
+        type: boolean
+        default: true
+      run_mutation:
+        description: Run mutation experiments
+        required: true
+        type: boolean
+        default: true
+
+jobs:
+  performance:
+    if: ${{ inputs.run_performance }}
+    name: Assignment 3 Performance
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Start Assignment 3 environment
+        run: node scripts/assignment3/up.js
+
+      - name: Run performance experiments
+        run: node scripts/assignment3/performance.js
+
+      - name: Upload performance artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: assignment3-performance
+          path: |
+            artifacts/assignment3/runtime/
+            artifacts/assignment3/performance/
+
+  mutation:
+    if: ${{ inputs.run_mutation }}
+    name: Assignment 3 Mutation
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run mutation experiments
+        run: node scripts/assignment3/mutation.js
+
+      - name: Upload mutation artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: assignment3-mutation
+          path: |
+            artifacts/assignment3/mutation/
+            backend/reports/mutation/

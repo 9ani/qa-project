@@ -1,0 +1,101 @@
+frontend-1  | 2026-04-18T05:49:29.382547117Z 172.19.0.1 - - [18/Apr/2026:05:49:29 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:31.381973327Z 172.19.0.1 - - [18/Apr/2026:05:49:31 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:33.382638797Z 172.19.0.1 - - [18/Apr/2026:05:49:33 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:35.382732609Z 172.19.0.1 - - [18/Apr/2026:05:49:35 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:37.383642407Z 172.19.0.1 - - [18/Apr/2026:05:49:37 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:39.396892522Z 172.19.0.1 - - [18/Apr/2026:05:49:39 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:41.397692822Z 172.19.0.1 - - [18/Apr/2026:05:49:41 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:43.398801760Z 172.19.0.1 - - [18/Apr/2026:05:49:43 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:45.399035991Z 172.19.0.1 - - [18/Apr/2026:05:49:45 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:47.399427431Z 172.19.0.1 - - [18/Apr/2026:05:49:47 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:49.399022336Z 172.19.0.1 - - [18/Apr/2026:05:49:49 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:51.399452590Z 172.19.0.1 - - [18/Apr/2026:05:49:51 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:53.398705898Z 172.19.0.1 - - [18/Apr/2026:05:49:53 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:55.399546674Z 172.19.0.1 - - [18/Apr/2026:05:49:55 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:57.398413289Z 172.19.0.1 - - [18/Apr/2026:05:49:57 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:49:59.398682166Z 172.19.0.1 - - [18/Apr/2026:05:49:59 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:01.399479995Z 172.19.0.1 - - [18/Apr/2026:05:50:01 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:03.399151408Z 172.19.0.1 - - [18/Apr/2026:05:50:03 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:05.398884847Z 172.19.0.1 - - [18/Apr/2026:05:50:05 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:07.398759658Z 172.19.0.1 - - [18/Apr/2026:05:50:07 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:09.400409068Z 172.19.0.1 - - [18/Apr/2026:05:50:09 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:11.400912025Z 172.19.0.1 - - [18/Apr/2026:05:50:11 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:13.400679361Z 172.19.0.1 - - [18/Apr/2026:05:50:13 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:15.400813683Z 172.19.0.1 - - [18/Apr/2026:05:50:15 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:17.400943005Z 172.19.0.1 - - [18/Apr/2026:05:50:17 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:19.400724756Z 172.19.0.1 - - [18/Apr/2026:05:50:19 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:21.400846864Z 172.19.0.1 - - [18/Apr/2026:05:50:21 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:23.401000526Z 172.19.0.1 - - [18/Apr/2026:05:50:23 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:25.400669575Z 172.19.0.1 - - [18/Apr/2026:05:50:25 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:27.400746462Z 172.19.0.1 - - [18/Apr/2026:05:50:27 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:29.400768330Z 172.19.0.1 - - [18/Apr/2026:05:50:29 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:31.401194254Z 172.19.0.1 - - [18/Apr/2026:05:50:31 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:33.400564754Z 172.19.0.1 - - [18/Apr/2026:05:50:33 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:35.400816104Z 172.19.0.1 - - [18/Apr/2026:05:50:35 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:37.401274461Z 172.19.0.1 - - [18/Apr/2026:05:50:37 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:39.400823325Z 172.19.0.1 - - [18/Apr/2026:05:50:39 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:41.399386927Z 172.19.0.1 - - [18/Apr/2026:05:50:41 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:43.398687344Z 172.19.0.1 - - [18/Apr/2026:05:50:43 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:45.398723971Z 172.19.0.1 - - [18/Apr/2026:05:50:45 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:47.399094354Z 172.19.0.1 - - [18/Apr/2026:05:50:47 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:49.399560805Z 172.19.0.1 - - [18/Apr/2026:05:50:49 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:51.399851468Z 172.19.0.1 - - [18/Apr/2026:05:50:51 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:53.399501931Z 172.19.0.1 - - [18/Apr/2026:05:50:53 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:55.399469151Z 172.19.0.1 - - [18/Apr/2026:05:50:55 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:57.400648113Z 172.19.0.1 - - [18/Apr/2026:05:50:57 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:50:59.400643960Z 172.19.0.1 - - [18/Apr/2026:05:50:59 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:01.401778858Z 172.19.0.1 - - [18/Apr/2026:05:51:01 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:03.401596346Z 172.19.0.1 - - [18/Apr/2026:05:51:03 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:05.400691194Z 172.19.0.1 - - [18/Apr/2026:05:51:05 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:07.400965999Z 172.19.0.1 - - [18/Apr/2026:05:51:07 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:09.400781304Z 172.19.0.1 - - [18/Apr/2026:05:51:09 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:11.400728830Z 172.19.0.1 - - [18/Apr/2026:05:51:11 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:13.401347022Z 172.19.0.1 - - [18/Apr/2026:05:51:13 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:15.400992303Z 172.19.0.1 - - [18/Apr/2026:05:51:15 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:17.400637963Z 172.19.0.1 - - [18/Apr/2026:05:51:17 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:19.400315936Z 172.19.0.1 - - [18/Apr/2026:05:51:19 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:21.399789005Z 172.19.0.1 - - [18/Apr/2026:05:51:21 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:23.399921915Z 172.19.0.1 - - [18/Apr/2026:05:51:23 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:25.400235966Z 172.19.0.1 - - [18/Apr/2026:05:51:25 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:27.399565907Z 172.19.0.1 - - [18/Apr/2026:05:51:27 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:29.401316257Z 172.19.0.1 - - [18/Apr/2026:05:51:29 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:31.401254227Z 172.19.0.1 - - [18/Apr/2026:05:51:31 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:33.401110224Z 172.19.0.1 - - [18/Apr/2026:05:51:33 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:35.400602105Z 172.19.0.1 - - [18/Apr/2026:05:51:35 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:37.401116931Z 172.19.0.1 - - [18/Apr/2026:05:51:37 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:39.400524781Z 172.19.0.1 - - [18/Apr/2026:05:51:39 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:41.401498040Z 172.19.0.1 - - [18/Apr/2026:05:51:41 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:43.402386925Z 172.19.0.1 - - [18/Apr/2026:05:51:43 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:45.402397577Z 172.19.0.1 - - [18/Apr/2026:05:51:45 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:47.403562634Z 172.19.0.1 - - [18/Apr/2026:05:51:47 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:49.404622769Z 172.19.0.1 - - [18/Apr/2026:05:51:49 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:51.405822390Z 172.19.0.1 - - [18/Apr/2026:05:51:51 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:53.405508509Z 172.19.0.1 - - [18/Apr/2026:05:51:53 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:55.405583916Z 172.19.0.1 - - [18/Apr/2026:05:51:55 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:57.405523485Z 172.19.0.1 - - [18/Apr/2026:05:51:57 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:51:59.405584067Z 172.19.0.1 - - [18/Apr/2026:05:51:59 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:52:01.406644779Z 172.19.0.1 - - [18/Apr/2026:05:52:01 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:52:03.407745188Z 172.19.0.1 - - [18/Apr/2026:05:52:03 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:52:05.407510339Z 172.19.0.1 - - [18/Apr/2026:05:52:05 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+frontend-1  | 2026-04-18T05:52:07.409009590Z 172.19.0.1 - - [18/Apr/2026:05:52:07 +0000] "GET / HTTP/1.1" 200 3077 "-" "node" "-"
+mongodb-1   | 2026-04-18T05:49:39.607727335Z {"t":{"$date":"2026-04-18T05:49:39.607+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:37102","uuid":"df37aade-c4b7-48c2-ba2c-b226420aa370","connectionId":13,"connectionCount":13}}
+mongodb-1   | 2026-04-18T05:49:39.607753867Z {"t":{"$date":"2026-04-18T05:49:39.607+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:37112","uuid":"558b3f1e-f8e6-469c-9efb-2bb96c34e4c4","connectionId":14,"connectionCount":14}}
+mongodb-1   | 2026-04-18T05:49:39.699203697Z {"t":{"$date":"2026-04-18T05:49:39.699+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn13","msg":"client metadata","attr":{"remote":"172.19.0.3:37102","client":"conn13","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:39.699376203Z {"t":{"$date":"2026-04-18T05:49:39.699+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn14","msg":"client metadata","attr":{"remote":"172.19.0.3:37112","client":"conn14","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:40.004089322Z {"t":{"$date":"2026-04-18T05:49:40.003+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:37118","uuid":"9de535b2-718b-4c1e-a1eb-c6e160c18503","connectionId":15,"connectionCount":15}}
+mongodb-1   | 2026-04-18T05:49:40.103202345Z {"t":{"$date":"2026-04-18T05:49:40.103+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn15","msg":"client metadata","attr":{"remote":"172.19.0.3:37118","client":"conn15","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:41.600520719Z {"t":{"$date":"2026-04-18T05:49:41.600+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:37122","uuid":"f1b6244b-f7e8-4544-afd1-c6b50fdbee55","connectionId":16,"connectionCount":16}}
+mongodb-1   | 2026-04-18T05:49:41.600542405Z {"t":{"$date":"2026-04-18T05:49:41.600+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:37136","uuid":"92fd2d02-0eb3-4b76-8602-82a7ceb98e11","connectionId":17,"connectionCount":17}}
+mongodb-1   | 2026-04-18T05:49:41.718420030Z {"t":{"$date":"2026-04-18T05:49:41.718+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn16","msg":"client metadata","attr":{"remote":"172.19.0.3:37122","client":"conn16","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:41.718442965Z {"t":{"$date":"2026-04-18T05:49:41.718+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn17","msg":"client metadata","attr":{"remote":"172.19.0.3:37136","client":"conn17","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:43.606162716Z {"t":{"$date":"2026-04-18T05:49:43.606+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:37142","uuid":"91d3fdb0-2ece-468e-885b-2554b74c3918","connectionId":18,"connectionCount":18}}
+mongodb-1   | 2026-04-18T05:49:43.718039342Z {"t":{"$date":"2026-04-18T05:49:43.717+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn18","msg":"client metadata","attr":{"remote":"172.19.0.3:37142","client":"conn18","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:45.721652742Z {"t":{"$date":"2026-04-18T05:49:45.721+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:42578","uuid":"095dc03e-5030-4a54-831d-4300dd2abb12","connectionId":19,"connectionCount":19}}
+mongodb-1   | 2026-04-18T05:49:45.900941788Z {"t":{"$date":"2026-04-18T05:49:45.900+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn19","msg":"client metadata","attr":{"remote":"172.19.0.3:42578","client":"conn19","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:57.603965007Z {"t":{"$date":"2026-04-18T05:49:57.603+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:40034","uuid":"bd0bf540-08f7-4537-90f3-6982177c2c5e","connectionId":20,"connectionCount":20}}
+mongodb-1   | 2026-04-18T05:49:57.717847633Z {"t":{"$date":"2026-04-18T05:49:57.717+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn20","msg":"client metadata","attr":{"remote":"172.19.0.3:40034","client":"conn20","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:49:58.783813437Z {"t":{"$date":"2026-04-18T05:49:58.783+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491398,"ts_usec":783472,"thread":"1:0x7a906e131640","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 4, snapshot max: 4 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 390"}}}
+mongodb-1   | 2026-04-18T05:50:58.787178778Z {"t":{"$date":"2026-04-18T05:50:58.787+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491458,"ts_usec":787055,"thread":"1:0x7a906e131640","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 6, snapshot max: 6 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 390"}}}
+mongodb-1   | 2026-04-18T05:51:35.709174131Z {"t":{"$date":"2026-04-18T05:51:35.709+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.19.0.3:59820","uuid":"715a5ca7-793d-4609-b74c-41a5b84ef985","connectionId":21,"connectionCount":21}}
+mongodb-1   | 2026-04-18T05:51:35.798588082Z {"t":{"$date":"2026-04-18T05:51:35.798+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn21","msg":"client metadata","attr":{"remote":"172.19.0.3:59820","client":"conn21","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs|Mongoose","version":"6.17.0|8.16.3"},"platform":"Node.js v18.20.8, LE","os":{"name":"linux","architecture":"x64","version":"6.17.0-20-generic","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
+mongodb-1   | 2026-04-18T05:51:58.791612796Z {"t":{"$date":"2026-04-18T05:51:58.791+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1776491518,"ts_usec":791418,"thread":"1:0x7a906e131640","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":6,"verbose_level":"DEBUG","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 8, snapshot max: 8 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 390"}}}

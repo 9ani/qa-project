@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="40" y="36" font-size="22" font-family="Arial, sans-serif" fill="#111827">cpu-throttle latency delta during fault</text>
+  <line x1="80" y1="320" x2="920" y2="320" stroke="#9ca3af" stroke-width="1.5" />
+  <line x1="80" y1="320" x2="80" y2="60" stroke="#9ca3af" stroke-width="1.5" />
+  
+        <rect x="80" y="320.1195173338441" width="108" height="-0.11951733384409116" fill="#dc2626" rx="6" />
+        <text x="134" y="338" text-anchor="middle" font-size="11" fill="#1f2937">frontend-home</text>
+        <text x="134" y="312.1195173338441" text-anchor="middle" font-size="11" fill="#111827">-0.12 ms</text>
+      
+
+        <rect x="200" y="305.85711549511586" width="108" height="14.14288450488412" fill="#dc2626" rx="6" />
+        <text x="254" y="338" text-anchor="middle" font-size="11" fill="#1f2937">backend-health</text>
+        <text x="254" y="297.85711549511586" text-anchor="middle" font-size="11" fill="#111827">14.2 ms</text>
+      
+
+        <rect x="320" y="305.73759816127176" width="108" height="14.262401838728213" fill="#dc2626" rx="6" />
+        <text x="374" y="338" text-anchor="middle" font-size="11" fill="#1f2937">backend-db</text>
+        <text x="374" y="297.73759816127176" text-anchor="middle" font-size="11" fill="#111827">14.32 ms</text>
+      
+
+        <rect x="440" y="166.53974334418695" width="108" height="153.46025665581305" fill="#dc2626" rx="6" />
+        <text x="494" y="338" text-anchor="middle" font-size="11" fill="#1f2937">products</text>
+        <text x="494" y="158.53974334418695" text-anchor="middle" font-size="11" fill="#111827">154.08 ms</text>
+      
+
+        <rect x="560" y="197.97280214518292" width="108" height="122.02719785481708" fill="#dc2626" rx="6" />
+        <text x="614" y="338" text-anchor="middle" font-size="11" fill="#1f2937">search</text>
+        <text x="614" y="189.97280214518292" text-anchor="middle" font-size="11" fill="#111827">122.52 ms</text>
+      
+
+        <rect x="680" y="60" width="108" height="260" fill="#dc2626" rx="6" />
+        <text x="734" y="338" text-anchor="middle" font-size="11" fill="#1f2937">auth-login</text>
+        <text x="734" y="52" text-anchor="middle" font-size="11" fill="#111827">261.05 ms</text>
+      
+
+        <rect x="800" y="134.22026431718064" width="108" height="185.77973568281936" fill="#dc2626" rx="6" />
+        <text x="854" y="338" text-anchor="middle" font-size="11" fill="#1f2937">order-track</text>
+        <text x="854" y="126.22026431718064" text-anchor="middle" font-size="11" fill="#111827">186.53 ms</text>
+      
+</svg>

@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-04-18T04:52:57.798Z",
+  "user": {
+    "id": "69e30e298a2b2b98304c9c0a",
+    "name": "Assignment 3 QA User",
+    "email": "qa.assignment3@example.com",
+    "password": "Assignment3!Pass123"
+  },
+  "product": {
+    "id": "69be5f4c6dabea85c538b92b",
+    "name": "iPhone 15 Pro Max",
+    "price": 1099,
+    "category": "electronics"
+  },
+  "order": {
+    "orderNumber": "FE-390001",
+    "email": "qa.assignment3@example.com",
+    "total": 1099
+  },
+  "services": {
+    "frontend": "http://127.0.0.1:3000",
+    "backend": "http://127.0.0.1:5000"
+  }
+}
