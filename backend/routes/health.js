@@ -6,8 +6,7 @@ const router = express.Router();
 
 const DB_READY_STATE = mongoose.Connection.STATES.connected;
 
-const isPineconeConfigured = () =>
-  Boolean(process.env.PINECONE_API_KEY && process.env.PINECONE_HOST);
+const isPineconeConfigured = () => Boolean(process.env.PINECONE_API_KEY && process.env.PINECONE_HOST);
 
 const getDbStatus = () => {
   const state = mongoose.connection.readyState;
